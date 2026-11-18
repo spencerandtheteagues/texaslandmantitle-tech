@@ -13,7 +13,8 @@
     "weekly:dry": "node tools/weekly-news-update.mjs",
     "weekly:publish": "node tools/weekly-news-update.mjs --publish",
     "deploy:pages": "node tools/deploy-gh-pages.mjs",
-    "ping:seo": "node tools/ping-search-engines.mjs"
+    "ping:seo": "node tools/ping-search-engines.mjs",
+    "finish:live": "node tools/finish-cutover.mjs"
   },
   "engines": {
     "node": ">=22.0.0"
