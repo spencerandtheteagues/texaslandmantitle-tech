@@ -1,0 +1,20 @@
+# Caddy snippet for texaslandmantitle.tech on server2 (82.180.139.77)
+# Point Hostinger DNS (account: spencertheteague@gmail.com) A @ -> 82.180.139.77 and CNAME www -> texaslandmantitle.tech
+
+www.texaslandmantitle.tech {
+  redir https://texaslandmantitle.tech{uri} permanent
+}
+
+texaslandmantitle.tech {
+  root * /srv/texaslandmantitle.tech/current
+  encode zstd gzip
+  file_server
+
+  header {
+    Strict-Transport-Security "max-age=31536000; includeSubDomains"
+    X-Content-Type-Options "nosniff"
+    X-Frame-Options "DENY"
+    Referrer-Policy "strict-origin-when-cross-origin"
+    Content-Security-Policy "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'"
+  }
+}

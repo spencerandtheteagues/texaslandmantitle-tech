@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Texas Landman &amp; Title Tech</title>
+    <link>https://texaslandmantitle.tech/</link>
+    <description>Primary-source benchmarks, unit economics, learning-curve indices, Texas mineral case law, and RRC regulatory intelligence for working landmen, title examiners, brokerages, and E&amp;P land departments.</description>
+    <language>en-us</language>
+    <item>
+      <title>Clifton v. Johnson &amp; Fasken v. Puig (Tex. 2026): Why 1950s Double-Fraction Deeds and Postproduction Clauses Break Naive AI Title Prompts</title>
+      <link>https://texaslandmantitle.tech/news/clifton-v-johnson-fasken-puig-2026-texas-mineral-deeds-ai/</link>
+      <guid>https://texaslandmantitle.tech/news/clifton-v-johnson-fasken-puig-2026-texas-mineral-deeds-ai/</guid>
+      <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+      <description>For the first time since Van Dyke v. Navigator Group, the Texas Supreme Court held that four-corners deed text rebutted the 1/8 estate-misconception presumption — fixing a 1951 conveyance at 1/128 rather than 1/16. Weeks later, Fasken Oil &amp; Ranch v. Puig proved "free of cost forever" still bears postproduction deductions.</description>
+    </item>
+    <item>
+      <title>Texas RRC Crosses 100.2 Million Digitized Files, Ends Paper P-5/PR Filings on LoneSTAR, and Opens SB 1150 Inactive-Well Rulemaking</title>
+      <link>https://texaslandmantitle.tech/news/texas-rrc-100-million-records-lonestar-sb1150-inactive-wells/</link>
+      <guid>https://texaslandmantitle.tech/news/texas-rrc-100-million-records-lonestar-sb1150-inactive-wells/</guid>
+      <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+      <description>What the Railroad Commission's 2026 digital overhaul, record 2,022 orphan-well pluggings, and November 2026 Chapter 3 inactive-well hearings mean for Held-by-Production (HBP) lease checks and wellborecurative work.</description>
+    </item>
+    <item>
+      <title>The 2026 Texas Courthouse Record Cost Fact Sheet: TexasFile vs. CourthouseDirect vs. CountyRecords.com, SB 16 Clerk Rules, and the Rural Gap</title>
+      <link>https://texaslandmantitle.tech/news/2026-texas-courthouse-record-cost-fact-sheet-sb16-rural-gaps/</link>
+      <guid>https://texaslandmantitle.tech/news/2026-texas-courthouse-record-cost-fact-sheet-sb16-rural-gaps/</guid>
+      <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Exact 2026 per-page, per-document, preview, and county-plant fee schedules across Texas's Big Three portals — plus how "view-before-buy" discipline cuts raw deed spend by 65% and where physical courthouse vaults still win.</description>
+    </item>
+    <item>
+      <title>Inside the Fall 2026 AI Title Wave: Why Three-Model Verification &amp; Deterministic BigInt Math Beat Single-Model Chatbots</title>
+      <link>https://texaslandmantitle.tech/news/fall-2026-ai-landman-software-wave-multi-model-verification/</link>
+      <guid>https://texaslandmantitle.tech/news/fall-2026-ai-landman-software-wave-multi-model-verification/</guid>
+      <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+      <description>Evaluating the rapid cluster of 2026 launches — TitleDesk, Artificial Landman, Enverus Runsheet Assistant, Energy Domain MCP, RecordsOnline AI Suite, and Quorum Data Extraction — on verification rigor.</description>
+    </item>
+    <item>
+      <title>Browser Title Runs vs. Local Desktop Workstation: A Practical Deployment Guide for Solo Landmen, Brokerages, and E&amp;P Teams</title>
+      <link>https://texaslandmantitle.tech/news/browser-runs-vs-local-desktop-workstation-landman-guide/</link>
+      <guid>https://texaslandmantitle.tech/news/browser-runs-vs-local-desktop-workstation-landman-guide/</guid>
+      <pubDate>Tue, 17 Nov 2026 12:00:00 GMT</pubDate>
+      <description>When to fire a zero-setup $249 four-sheet workbook run on Artificial Landman or TitleDesk Web — and when to live inside the $199/mo TitleDesk Desktop Agent for multi-tract units, offline TIFF OCR, and custom client folder trees.</description>
+    </item>
+  </channel>
+</rss>

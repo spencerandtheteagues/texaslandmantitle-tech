@@ -1,0 +1,135 @@
+{
+  "builtAt": "2026-11-18T04:08:03.002Z",
+  "pageCount": 13,
+  "totalArtifacts": 23,
+  "files": [
+    {
+      "route": "/",
+      "relPath": "index.html",
+      "bytes": 83686,
+      "sha256": "a5d899bdf853f04b326c5c68772976a4cb10353e8fa5dd2f95c9290706937e7c"
+    },
+    {
+      "route": "/rankings/",
+      "relPath": "rankings/index.html",
+      "bytes": 203371,
+      "sha256": "33c9cc1c592d24850b023b6150ab88774c6f9bcfd3ff8945679953a9ac4e65e4"
+    },
+    {
+      "route": "/titledesk-desktop/",
+      "relPath": "titledesk-desktop/index.html",
+      "bytes": 26072,
+      "sha256": "a91f7967a5615923b2224296789990c89eb9a92ef0bb0f1caa9a586515668e49"
+    },
+    {
+      "route": "/unit-economics/",
+      "relPath": "unit-economics/index.html",
+      "bytes": 27041,
+      "sha256": "93c06a27feae5c759c7c72d8ae9897d77699afc881d758517244fdd572ad9441"
+    },
+    {
+      "route": "/compare/",
+      "relPath": "compare/index.html",
+      "bytes": 160632,
+      "sha256": "4af6e541c6590fdc932db826514cd3240b22ca6a33780f4b8926f12d2f511fc7"
+    },
+    {
+      "route": "/news/",
+      "relPath": "news/index.html",
+      "bytes": 20119,
+      "sha256": "7019cb73fadcbd4fde9e70f499409d6cfa470ba3bbe9c4a881fc92ba1c4bd023"
+    },
+    {
+      "route": "/events/",
+      "relPath": "events/index.html",
+      "bytes": 26601,
+      "sha256": "ee9a0d01547f37c48c2a2eafdfd4f7d826ca4c75805282d5dc66715b9e7e742b"
+    },
+    {
+      "route": "/methodology/",
+      "relPath": "methodology/index.html",
+      "bytes": 18858,
+      "sha256": "e574a365e99134d5dec76db194edfb9b408255ddbae895a5d03cd0e16d6f80ed"
+    },
+    {
+      "route": "/news/clifton-v-johnson-fasken-puig-2026-texas-mineral-deeds-ai/",
+      "relPath": "news/clifton-v-johnson-fasken-puig-2026-texas-mineral-deeds-ai/index.html",
+      "bytes": 18764,
+      "sha256": "8d7bedbd9760b70ba215601d0b51c3f50129479190fe4511c2a0ee3487b2953f"
+    },
+    {
+      "route": "/news/texas-rrc-100-million-records-lonestar-sb1150-inactive-wells/",
+      "relPath": "news/texas-rrc-100-million-records-lonestar-sb1150-inactive-wells/index.html",
+      "bytes": 17949,
+      "sha256": "2ee2ea540e64f97c19359a04e936cf3af2430be1a9ba6de4c4c3920d352f48e1"
+    },
+    {
+      "route": "/news/2026-texas-courthouse-record-cost-fact-sheet-sb16-rural-gaps/",
+      "relPath": "news/2026-texas-courthouse-record-cost-fact-sheet-sb16-rural-gaps/index.html",
+      "bytes": 17626,
+      "sha256": "4cacce20f15cc0725bb1bc4acd1d41d829845aaf2ff7956a0cd2311200d4eb7a"
+    },
+    {
+      "route": "/news/fall-2026-ai-landman-software-wave-multi-model-verification/",
+      "relPath": "news/fall-2026-ai-landman-software-wave-multi-model-verification/index.html",
+      "bytes": 16933,
+      "sha256": "f0226f0161272e0d765427eb21fe924e584f12897395e28d5f0d2298e4d5711b"
+    },
+    {
+      "route": "/news/browser-runs-vs-local-desktop-workstation-landman-guide/",
+      "relPath": "news/browser-runs-vs-local-desktop-workstation-landman-guide/index.html",
+      "bytes": 16093,
+      "sha256": "1b11352d8cee0324f1b4971659e1c2684de9f737f47c9fc69a8611fa3fad22b0"
+    },
+    {
+      "relPath": "assets/styles.css",
+      "bytes": 17212,
+      "sha256": "bb9b8428ce82fd2e89bcb295d15eb455ac68042aac85de28b377bfb315914d32"
+    },
+    {
+      "relPath": "assets/app.js",
+      "bytes": 9881,
+      "sha256": "b0a46b5c7831a3b3b1149404df7049a5a6501576a27554d79885af790a21a23d"
+    },
+    {
+      "relPath": "favicon.svg",
+      "bytes": 338,
+      "sha256": "e4222df762ddd9a77611711f9e56d6fb6ef667e29956f00f47f8b718eca466c6"
+    },
+    {
+      "relPath": "robots.txt",
+      "bytes": 588,
+      "sha256": "461134de1edb37eda9ab5e8aeedb5d1fae90a3cfbdf79f83fd68c1ca638ebec2"
+    },
+    {
+      "relPath": "sitemap.xml",
+      "bytes": 2647,
+      "sha256": "ea86d33b238a91768df3e277238e76f5aa3461988523f3feb020e92ccc754a15"
+    },
+    {
+      "relPath": "feed.xml",
+      "bytes": 4138,
+      "sha256": "98e31d30f839f7887f801c383377cda2a620c4a9a3ca66455816f1709291ff98"
+    },
+    {
+      "relPath": "llms.txt",
+      "bytes": 4042,
+      "sha256": "07c8139824a13d5af6303d9d4e6d38eb83a07b6c5a2cb852fa50038f6d5dea40"
+    },
+    {
+      "relPath": "llms-full.txt",
+      "bytes": 115246,
+      "sha256": "f080f8bb3e27db0af0e20a991ee960d3d095004162f5b225f2e20ea8152e848c"
+    },
+    {
+      "relPath": "api/tools.json",
+      "bytes": 136620,
+      "sha256": "226703db3f602ed7fd5dbacaee8a1b81b064d6f34244ac3966f968b0b3970b08"
+    },
+    {
+      "relPath": "api/unit-economics.json",
+      "bytes": 7450,
+      "sha256": "7e233785a234e22ebb471c96de5a9f6a0651b41b7e94e28a3be56fe5b2db28c0"
+    }
+  ]
+}

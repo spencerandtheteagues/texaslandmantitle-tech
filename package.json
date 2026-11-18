@@ -1,0 +1,16 @@
+{
+  "name": "texaslandmantitle-tech",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Texas Landman & Title Tech (texaslandmantitle.tech) — Empirical software rankings, unit economics, courthouse research guide, and Texas oil & gas title news.",
+  "scripts": {
+    "build": "node src/build.mjs",
+    "serve": "node src/server.mjs",
+    "test": "node --test tests/site.test.mjs",
+    "queue": "node tools/editorial-queue.mjs"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
