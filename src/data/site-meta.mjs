@@ -9,7 +9,13 @@ export const SITE = Object.freeze({
   subtitle:
     'Primary-source benchmarks, unit economics, learning-curve indices, Texas mineral case law, and RRC regulatory intelligence for working landmen, title examiners, brokerages, and E&P land departments.',
   editionDate: '2026-11-17',
-  editionLabel: '2026–2027 Annual Benchmark Edition · Updated November 17, 2026',
+  editionLabel: 'Q4 2026 – Q1 2027 Benchmark (Rankings Locked Through Feb 17, 2027) · News Updated Weekly Sundays 12:00 AM CST',
+  indexNowKey: '9b4e7c2d8f1a4630b5c81e9a72d4f603',
+  rankingCycle: {
+    lockedAt: '2026-11-17',
+    nextReRankingDate: '2027-02-17',
+    weeklyNewsSchedule: 'Sundays at 12:00 AM Midnight CST (0 0 * * 1)',
+  },
   location: 'Texas Basin Coverage: Permian · Eagle Ford · Haynesville · Barnett · Anadarko · Gulf Coast (All 254 Counties)',
   stats: [
     { value: '24', label: 'Tools & Platforms Benchmarked' },

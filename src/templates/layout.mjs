@@ -48,11 +48,17 @@ export function renderLayout({
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: SITE.name,
-    alternateName: 'Texas Landman Title Tech',
+    alternateName: ['Texas Landman Title Tech', 'texaslandmantitle.tech'],
     url: SITE.origin,
     description: SITE.subtitle,
     inLanguage: 'en-US',
     dateModified: SITE.editionDate,
+    publisher: {
+      '@type': 'Organization',
+      name: SITE.name,
+      url: SITE.origin,
+      publishingPrinciples: `${SITE.origin}/methodology/`,
+    },
   };
 
   const breadcrumbSchema =
@@ -88,9 +94,13 @@ export function renderLayout({
   <meta property="og:title" content="${esc(fullTitle)}">
   <meta property="og:description" content="${esc(description)}">
   <meta property="og:url" content="${esc(canonicalUrl)}">
+  <meta property="og:image" content="${SITE.origin}/assets/og-card.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="${esc(fullTitle)}">
   <meta name="twitter:description" content="${esc(description)}">
+  <meta name="twitter:image" content="${SITE.origin}/assets/og-card.png">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="alternate" type="application/rss+xml" title="${esc(SITE.name)} RSS Feed" href="/feed.xml">
   <link rel="alternate" type="text/plain" title="LLM Machine-Readable Summary (llms.txt)" href="/llms.txt">
@@ -173,6 +183,10 @@ export function renderLayout({
           <h4>Software Benchmarks</h4>
           <ul>
             <li><a href="/rankings/">All 24 Benchmarked Tools</a></li>
+            <li><a href="/ai-landman-software/">Best AI Landman Software</a></li>
+            <li><a href="/title-runsheet-software/">Title Runsheet Software</a></li>
+            <li><a href="/mineral-ownership-calculator-software/">Mineral Ownership &amp; NMA Tools</a></li>
+            <li><a href="/deed-ocr-courthouse-records/">Deed OCR &amp; County Portals</a></li>
             <li><a href="/titledesk-desktop/">TitleDesk &amp; Artificial Landman (#1 Tied)</a></li>
             <li><a href="/unit-economics/">Unit Economics &amp; ROI Calculator</a></li>
             <li><a href="/compare/">Head-to-Head Comparisons</a></li>

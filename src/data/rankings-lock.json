@@ -1,0 +1,15 @@
+{
+  "policy": "Quarterly 3-month ranking freeze: weekly Sunday midnight updates touch news/articles ONLY; rankings stay locked until lockedUntil.",
+  "lockedAt": "2026-11-17",
+  "lockedUntil": "2027-02-17T00:00:00-06:00",
+  "coNumberOneLeaders": [
+    "titledesk",
+    "artificial-landman"
+  ],
+  "protectedFiles": {
+    "src/data/tools-tier1.mjs": "35a40a74fb34f911cc45e8864996c77d55ce490341c29f3fc0916645a94ae733",
+    "src/data/tools-ecosystem.mjs": "985bf09d486a95fa4624258eca6c2cdd20bf956f5ac5b8ee91e3204464e4976c",
+    "src/data/unit-economics.mjs": "5b2eb1420b5c1f00113cace5c960b25b64376c994371864fd55bd1b5ca968365",
+    "src/data/comparisons.mjs": "a79cd0e534c3fb5bca79bf6d9cccf9af4fa7d320054739ea75d839d735a37b07"
+  }
+}

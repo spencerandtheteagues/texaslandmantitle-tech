@@ -3,12 +3,14 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 
+import { SITE } from './data/site-meta.mjs';
 import { ARTICLES } from './data/articles.mjs';
 import { renderHomePage } from './templates/home.mjs';
 import { renderRankingsPage } from './templates/rankings.mjs';
 import { renderDesktopGuidePage } from './templates/desktop-guide.mjs';
 import { renderUnitEconomicsPage } from './templates/unit-economics.mjs';
 import { renderComparePage } from './templates/compare.mjs';
+import { SEO_LANDING_PAGES, renderSeoLandingPage } from './templates/seo-guides.mjs';
 import {
   renderNewsIndexPage,
   renderArticlePage,
@@ -51,6 +53,11 @@ export function buildSite() {
     { route: '/news/', rel: 'news/index.html', html: renderNewsIndexPage() },
     { route: '/events/', rel: 'events/index.html', html: renderEventsPage() },
     { route: '/methodology/', rel: 'methodology/index.html', html: renderMethodologyPage() },
+    ...SEO_LANDING_PAGES.map((p) => ({
+      route: p.route,
+      rel: p.rel,
+      html: renderSeoLandingPage(p),
+    })),
     ...ARTICLES.map((a) => ({
       route: `/news/${a.slug}/`,
       rel: `news/${a.slug}/index.html`,
@@ -63,11 +70,28 @@ export function buildSite() {
     manifest.push({ route: page.route, ...writeDistFile(page.rel, page.html) });
   }
 
-  // Static CSS & JS
+  // Static CSS, JS & OG social image if generated
   const css = fs.readFileSync(path.join(__dirname, 'assets', 'styles.css'), 'utf8');
   const js = fs.readFileSync(path.join(__dirname, 'assets', 'app.js'), 'utf8');
   manifest.push(writeDistFile('assets/styles.css', css));
   manifest.push(writeDistFile('assets/app.js', js));
+  const ogPngPath = path.join(__dirname, 'assets', 'og-card.png');
+  if (fs.existsSync(ogPngPath)) {
+    const ogBuf = fs.readFileSync(ogPngPath);
+    const fullOg = path.join(DIST, 'assets', 'og-card.png');
+    fs.mkdirSync(path.dirname(fullOg), { recursive: true });
+    fs.writeFileSync(fullOg, ogBuf);
+    manifest.push({
+      relPath: 'assets/og-card.png',
+      bytes: ogBuf.length,
+      sha256: crypto.createHash('sha256').update(ogBuf).digest('hex'),
+    });
+  }
+
+  // GitHub Pages & IndexNow root files
+  manifest.push(writeDistFile('CNAME', `${SITE.domain}\n`));
+  manifest.push(writeDistFile('.nojekyll', ''));
+  manifest.push(writeDistFile(`${SITE.indexNowKey}.txt`, SITE.indexNowKey));
 
   // GEO / AI / Search feeds
   const canonicalRoutes = htmlRoutes.map((r) => r.route);

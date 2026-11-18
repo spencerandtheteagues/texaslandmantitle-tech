@@ -7,6 +7,7 @@ import { fileURLToPath } from 'node:url';
 import { buildSite } from '../src/build.mjs';
 import { createStaticServer } from '../src/server.mjs';
 import { ALL_RANKED_TOOLS } from '../src/data/tools-ecosystem.mjs';
+import { verifyRankingsLock } from '../tools/lock-rankings.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DIST = path.resolve(__dirname, '..', 'dist');
@@ -22,8 +23,8 @@ function getAllHtmlFiles(dir, acc = []) {
   return acc;
 }
 
-test('1. Build produces all 13 HTML pages and all GEO/SEO machine endpoints', () => {
-  assert.equal(buildInfo.pageCount, 13);
+test('1. Build produces all 17 HTML pages and all GEO/SEO machine endpoints', () => {
+  assert.equal(buildInfo.pageCount, 17);
   const expectedFiles = [
     'index.html',
     'rankings/index.html',
@@ -33,6 +34,13 @@ test('1. Build produces all 13 HTML pages and all GEO/SEO machine endpoints', ()
     'news/index.html',
     'events/index.html',
     'methodology/index.html',
+    'ai-landman-software/index.html',
+    'title-runsheet-software/index.html',
+    'mineral-ownership-calculator-software/index.html',
+    'deed-ocr-courthouse-records/index.html',
+    'CNAME',
+    '.nojekyll',
+    '9b4e7c2d8f1a4630b5c81e9a72d4f603.txt',
     'assets/styles.css',
     'assets/app.js',
     'llms.txt',
@@ -170,4 +178,11 @@ test('8. Preview HTTP server serves HTML, JSON API, and llms.txt cleanly with se
   } finally {
     await new Promise((resolve) => server.close(resolve));
   }
+});
+
+test('9. Quarterly 3-month rankings freeze lock is active through 2027-02-17 and rejects tampering', () => {
+  const res = verifyRankingsLock({ now: new Date('2026-12-15T00:00:00Z') });
+  assert.equal(res.ok, true);
+  assert.equal(res.lockedUntil.startsWith('2027-02-17'), true);
+  assert.equal(res.protectedCount, 4);
 });

@@ -1,85 +1,109 @@
 {
-  "builtAt": "2026-11-18T04:08:03.002Z",
-  "pageCount": 13,
-  "totalArtifacts": 23,
+  "builtAt": "2026-11-18T04:41:50.908Z",
+  "pageCount": 17,
+  "totalArtifacts": 31,
   "files": [
     {
       "route": "/",
       "relPath": "index.html",
-      "bytes": 83686,
-      "sha256": "a5d899bdf853f04b326c5c68772976a4cb10353e8fa5dd2f95c9290706937e7c"
+      "bytes": 84591,
+      "sha256": "6e33c45fc6cf255eda4c75a9b00f92b74c2e6fa0eba8bcc9622c538650edc791"
     },
     {
       "route": "/rankings/",
       "relPath": "rankings/index.html",
-      "bytes": 203371,
-      "sha256": "33c9cc1c592d24850b023b6150ab88774c6f9bcfd3ff8945679953a9ac4e65e4"
+      "bytes": 204276,
+      "sha256": "776e09a0462a29a8cada0b07b3eaf11e64fbe831078183b1abdba845e9d0d1a9"
     },
     {
       "route": "/titledesk-desktop/",
       "relPath": "titledesk-desktop/index.html",
-      "bytes": 26072,
-      "sha256": "a91f7967a5615923b2224296789990c89eb9a92ef0bb0f1caa9a586515668e49"
+      "bytes": 26977,
+      "sha256": "b537caf2081e3bc1ebe97cfc395ed5edd3f3fa4438323bfdabb6e973d5fa6626"
     },
     {
       "route": "/unit-economics/",
       "relPath": "unit-economics/index.html",
-      "bytes": 27041,
-      "sha256": "93c06a27feae5c759c7c72d8ae9897d77699afc881d758517244fdd572ad9441"
+      "bytes": 27946,
+      "sha256": "3dab8e33304e14fc27cf872fc8cc8efbd14aff5d2d1c560508795007e145613b"
     },
     {
       "route": "/compare/",
       "relPath": "compare/index.html",
-      "bytes": 160632,
-      "sha256": "4af6e541c6590fdc932db826514cd3240b22ca6a33780f4b8926f12d2f511fc7"
+      "bytes": 161537,
+      "sha256": "6790df3496d9825e82627ddc3bdacdd1e6ff5ba9fde4169610691cada0c5fb80"
     },
     {
       "route": "/news/",
       "relPath": "news/index.html",
-      "bytes": 20119,
-      "sha256": "7019cb73fadcbd4fde9e70f499409d6cfa470ba3bbe9c4a881fc92ba1c4bd023"
+      "bytes": 21024,
+      "sha256": "cce935bacc13f694e5febebed4af4bad8587aeae364fe2b953af82c267d90e82"
     },
     {
       "route": "/events/",
       "relPath": "events/index.html",
-      "bytes": 26601,
-      "sha256": "ee9a0d01547f37c48c2a2eafdfd4f7d826ca4c75805282d5dc66715b9e7e742b"
+      "bytes": 27506,
+      "sha256": "5e1c11b65c8a5399dcaa8fd874eb663dac3bd069530d76ad5c45d2ca9f2789e0"
     },
     {
       "route": "/methodology/",
       "relPath": "methodology/index.html",
-      "bytes": 18858,
-      "sha256": "e574a365e99134d5dec76db194edfb9b408255ddbae895a5d03cd0e16d6f80ed"
+      "bytes": 19763,
+      "sha256": "c0ce2d67b46eb0886b5efbae997d321731cabbf2eae8894af6a81a1d16647af5"
+    },
+    {
+      "route": "/ai-landman-software/",
+      "relPath": "ai-landman-software/index.html",
+      "bytes": 22967,
+      "sha256": "d91aad33f67c30a1c5e33a6b2e7c10893bb2dc3b1967ab8ef7c13f4cd3bb27d0"
+    },
+    {
+      "route": "/title-runsheet-software/",
+      "relPath": "title-runsheet-software/index.html",
+      "bytes": 15934,
+      "sha256": "ff3b173f6c0127b4a6b4a77c1934d344bfe692a9403ebc6e2da99557d11322c8"
+    },
+    {
+      "route": "/mineral-ownership-calculator-software/",
+      "relPath": "mineral-ownership-calculator-software/index.html",
+      "bytes": 16987,
+      "sha256": "6eed53734adfbefa4ee1dc29f9b8f931388440a28d1326ace34c1fdce094ba85"
+    },
+    {
+      "route": "/deed-ocr-courthouse-records/",
+      "relPath": "deed-ocr-courthouse-records/index.html",
+      "bytes": 17389,
+      "sha256": "548f1db612c0ce13f95f94217d6cb36502a54dd96a7180cdc537743ff170bd2d"
     },
     {
       "route": "/news/clifton-v-johnson-fasken-puig-2026-texas-mineral-deeds-ai/",
       "relPath": "news/clifton-v-johnson-fasken-puig-2026-texas-mineral-deeds-ai/index.html",
-      "bytes": 18764,
-      "sha256": "8d7bedbd9760b70ba215601d0b51c3f50129479190fe4511c2a0ee3487b2953f"
+      "bytes": 19669,
+      "sha256": "83faef139780b94917f6dbe1e3e10c346c0091e5898fce140b14b5420c8a23fd"
     },
     {
       "route": "/news/texas-rrc-100-million-records-lonestar-sb1150-inactive-wells/",
       "relPath": "news/texas-rrc-100-million-records-lonestar-sb1150-inactive-wells/index.html",
-      "bytes": 17949,
-      "sha256": "2ee2ea540e64f97c19359a04e936cf3af2430be1a9ba6de4c4c3920d352f48e1"
+      "bytes": 18854,
+      "sha256": "20b04a448ec367b7240671fe491694f6b06fb703c4ebb601e0bffabf5a52cbd7"
     },
     {
       "route": "/news/2026-texas-courthouse-record-cost-fact-sheet-sb16-rural-gaps/",
       "relPath": "news/2026-texas-courthouse-record-cost-fact-sheet-sb16-rural-gaps/index.html",
-      "bytes": 17626,
-      "sha256": "4cacce20f15cc0725bb1bc4acd1d41d829845aaf2ff7956a0cd2311200d4eb7a"
+      "bytes": 18531,
+      "sha256": "5cf4aa7f88538d9d42536155bf6d53c926b3f5b8b19b7ef742dbcf5e9f6e29fa"
     },
     {
       "route": "/news/fall-2026-ai-landman-software-wave-multi-model-verification/",
       "relPath": "news/fall-2026-ai-landman-software-wave-multi-model-verification/index.html",
-      "bytes": 16933,
-      "sha256": "f0226f0161272e0d765427eb21fe924e584f12897395e28d5f0d2298e4d5711b"
+      "bytes": 17838,
+      "sha256": "2cec0b832af847d34fd59cc1a9ee41138235d3687b738ff006cfda8ab2f5e713"
     },
     {
       "route": "/news/browser-runs-vs-local-desktop-workstation-landman-guide/",
       "relPath": "news/browser-runs-vs-local-desktop-workstation-landman-guide/index.html",
-      "bytes": 16093,
-      "sha256": "1b11352d8cee0324f1b4971659e1c2684de9f737f47c9fc69a8611fa3fad22b0"
+      "bytes": 16998,
+      "sha256": "f3a1ab40a9382af629e2ae2721a632bf18b37b0aec38dc210e66e3b95a638430"
     },
     {
       "relPath": "assets/styles.css",
@@ -90,6 +114,26 @@
       "relPath": "assets/app.js",
       "bytes": 9881,
       "sha256": "b0a46b5c7831a3b3b1149404df7049a5a6501576a27554d79885af790a21a23d"
+    },
+    {
+      "relPath": "assets/og-card.png",
+      "bytes": 59446,
+      "sha256": "e0cc65f491528fedf5ddd2d233ce6aba404fc81e7a59955a6a386d2bc4555697"
+    },
+    {
+      "relPath": "CNAME",
+      "bytes": 23,
+      "sha256": "772132cb1b73eae33290b521d2162a9c8ddb6ea17f038b72928b62a60f58ebce"
+    },
+    {
+      "relPath": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "relPath": "9b4e7c2d8f1a4630b5c81e9a72d4f603.txt",
+      "bytes": 32,
+      "sha256": "7f1b7f09374313295818204cedebe70cb21f890c054d84760ce705b2cd2aa645"
     },
     {
       "relPath": "favicon.svg",
@@ -103,8 +147,8 @@
     },
     {
       "relPath": "sitemap.xml",
-      "bytes": 2647,
-      "sha256": "ea86d33b238a91768df3e277238e76f5aa3461988523f3feb020e92ccc754a15"
+      "bytes": 3417,
+      "sha256": "7a8db8dc85dcbc1afec43a9abe2b93d065230f1bd7881c9250097887c8d21af8"
     },
     {
       "relPath": "feed.xml",
@@ -113,8 +157,8 @@
     },
     {
       "relPath": "llms.txt",
-      "bytes": 4042,
-      "sha256": "07c8139824a13d5af6303d9d4e6d38eb83a07b6c5a2cb852fa50038f6d5dea40"
+      "bytes": 4089,
+      "sha256": "edc546689997f9ef9d1b8d028c993cf9be5c31f8d69c23eb8e8e51082c795230"
     },
     {
       "relPath": "llms-full.txt",

@@ -1,6 +1,16 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const WEEKLY_PATH = path.join(__dirname, 'weekly-editions.json');
+const WEEKLY_ARTICLES = fs.existsSync(WEEKLY_PATH)
+  ? JSON.parse(fs.readFileSync(WEEKLY_PATH, 'utf8'))
+  : [];
+
 // Full-length, primary-source-cited articles on Texas mineral case law, RRC regulation, courthouse economics, and AI title engineering.
 
-export const ARTICLES = Object.freeze([
+const CORE_ARTICLES = [
   {
     slug: 'clifton-v-johnson-fasken-puig-2026-texas-mineral-deeds-ai',
     rubric: 'Texas Supreme Court · Mineral & Royalty Law',
@@ -224,4 +234,6 @@ export const ARTICLES = Object.freeze([
       { label: 'TitleDesk Desktop Agent Feature & Benchmark Overview', url: 'https://desktop.title-desk.com/how-it-works/' },
     ],
   },
-]);
+];
+
+export const ARTICLES = Object.freeze([...WEEKLY_ARTICLES, ...CORE_ARTICLES]);
