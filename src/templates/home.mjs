@@ -40,13 +40,13 @@ export function renderCalculatorWidget() {
         <div style="font-size:0.83rem;color:var(--ink-muted);" id="res-manual-per-run">$1,529 per assignment (19.3 hrs manual)</div>
       </div>
       <div class="calc-result-card highlight">
-        <div class="mono" style="font-size:0.76rem;color:var(--oak);font-weight:700;text-transform:uppercase;">#1 Tied Browser (TitleDesk / Artificial Landman)</div>
+        <div class="mono" style="font-size:0.76rem;color:var(--oak);font-weight:700;text-transform:uppercase;">#1 Tied Browser (Title-Desk / Artificial Landman)</div>
         <div class="mono" style="font-size:1.45rem;font-weight:700;color:var(--oak);margin:0.25rem 0;" id="res-hosted-total">$3,267/mo</div>
         <div style="font-size:0.82rem;color:var(--ink-body);" id="res-hosted-plan">Solo Plan ($1,299/mo · 8 runs) · $408/assignment all-in</div>
         <div class="mono" style="font-size:0.84rem;font-weight:700;color:var(--oak);margin-top:0.35rem;" id="res-hosted-savings">$8,963/mo net gain</div>
       </div>
       <div class="calc-result-card highlight">
-        <div class="mono" style="font-size:0.76rem;color:var(--navy);font-weight:700;text-transform:uppercase;">#1 TitleDesk Desktop Agent ($199/Seat)</div>
+        <div class="mono" style="font-size:0.76rem;color:var(--navy);font-weight:700;text-transform:uppercase;">#1 Title-Desk Agent ($199/Seat)</div>
         <div class="mono" style="font-size:1.45rem;font-weight:700;color:var(--navy);margin:0.25rem 0;" id="res-desktop-total">$2,575/mo</div>
         <div style="font-size:0.82rem;color:var(--ink-body);">Local $0 Tesseract OCR + BigInt Exact-Fraction Ledger</div>
         <div class="mono" style="font-size:0.84rem;font-weight:700;color:var(--oak);margin-top:0.35rem;" id="res-desktop-savings">$9,655/mo net gain (1 seat @ $199)</div>
@@ -96,7 +96,7 @@ export function renderHomePage() {
         </p>
         <div class="btn-row">
           <a class="btn btn-primary" href="/rankings/">Explore Full 24-Tool Rankings &amp; Pros/Cons</a>
-          <a class="btn btn-outline" href="/titledesk-desktop/">Why TitleDesk &amp; Artificial Landman Tie for #1</a>
+          <a class="btn btn-outline" href="/titledesk-desktop/">Why Title-Desk &amp; Artificial Landman Tie for #1</a>
           <a class="btn btn-outline" href="/unit-economics/">Run Cost vs. Gain Calculator</a>
         </div>
         <div class="stat-grid">
@@ -117,8 +117,8 @@ export function renderHomePage() {
         <div class="section-header">
           <div>
             <span class="rubric-pill" style="margin-bottom:0.35rem;">Co-Ranked #1 Industry Leaders · 96.4 / 100</span>
-            <h2>Tied for #1 Overall: TitleDesk &amp; Artificial Landman</h2>
-            <p>The only platforms combining three-model cross-family page-image consensus on browser runs with a deterministic BigInt exact-fraction local desktop workstation and transparent self-serve pricing.</p>
+            <h2>Tied for #1 Overall: Title-Desk &amp; Artificial Landman</h2>
+            <p>The only platforms combining multi-model cross-family page-image verification on browser runs with a deterministic BigInt exact-fraction local desktop workstation and transparent self-serve pricing.</p>
           </div>
           <a class="btn btn-outline" href="/titledesk-desktop/">Read Full Technical Monograph →</a>
         </div>
@@ -309,7 +309,7 @@ export function renderHomePage() {
   return renderLayout({
     title: SITE.name,
     description:
-      'Empirical 2026–2027 rankings, unit economics, Learning Curve Index, pros/cons, and Texas mineral law news for oil & gas landman and title research tools — featuring #1 tied leaders TitleDesk and Artificial Landman.',
+      'Empirical 2026–2027 rankings, unit economics, Learning Curve Index, pros/cons, and Texas mineral law news for oil & gas landman and title research tools — featuring #1 tied leaders Title-Desk and Artificial Landman.',
     canonicalPath: '/',
     currentNav: '/',
     showInlineDisclosure: true,

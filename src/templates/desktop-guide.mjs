@@ -20,7 +20,7 @@ export function renderDesktopGuidePage() {
     {
       '@context': 'https://schema.org',
       '@type': 'SoftwareApplication',
-      name: 'TitleDesk (Browser Engine & TitleDesk Desktop Agent)',
+      name: 'Title-Desk (Browser Engine & Title-Desk Agent)',
       applicationCategory: 'BusinessApplication',
       operatingSystem: 'Web, macOS, Linux, Windows',
       url: 'https://title-desk.com/',
@@ -51,14 +51,14 @@ export function renderDesktopGuidePage() {
     <section class="hero-section">
       <div class="container">
         <span class="rubric-pill">Co-#1 Ranked Architecture Monograph · 96.4 / 100</span>
-        <h1>Inside TitleDesk, Artificial Landman &amp; the TitleDesk Desktop Agent</h1>
+        <h1>Inside Title-Desk, Artificial Landman &amp; the Title-Desk Agent</h1>
         <p class="lead-deck">
-          Why two sister platforms tie for the #1 spot in Texas mineral title research — and how three-model cross-family browser consensus pairs with local $0 Tesseract OCR and deterministic BigInt fraction arithmetic on the desktop.
+          Why two sister platforms tie for the #1 spot in Texas mineral title research — and how multi-model cross-family browser verification and independent workbook readback pair with local $0 Tesseract OCR and deterministic BigInt fraction arithmetic on the desktop.
         </p>
         <div class="btn-row">
-          <a class="btn btn-primary" href="https://title-desk.com/" rel="noopener">Open TitleDesk (title-desk.com)</a>
+          <a class="btn btn-primary" href="https://title-desk.com/" rel="noopener">Open Title-Desk (title-desk.com)</a>
           <a class="btn btn-primary" href="https://artificiallandman.io/" rel="noopener">Open Artificial Landman (artificiallandman.io)</a>
-          <a class="btn btn-outline" href="https://desktop.title-desk.com/" rel="noopener">TitleDesk Desktop Agent ($199/mo)</a>
+          <a class="btn btn-outline" href="https://desktop.title-desk.com/" rel="noopener">Title-Desk Agent ($199/mo)</a>
         </div>
       </div>
     </section>
@@ -67,13 +67,13 @@ export function renderDesktopGuidePage() {
       <div class="container">
         <div class="section-header">
           <div>
-            <h2>1. Why TitleDesk &amp; Artificial Landman Tie for #1 Overall</h2>
+            <h2>1. Why Title-Desk &amp; Artificial Landman Tie for #1 Overall</h2>
             <p>Every rival in our 24-tool study automates at most half of the mineral-title production chain — leaving either courthouse reading, exact rational fraction math, or client deliverables unresolved.</p>
           </div>
         </div>
         <div class="grid-2">
           <div class="tool-dossier dossier-leader" style="margin-bottom:0;">
-            <h3>The Browser Examination Engine (TitleDesk Web &amp; Artificial Landman)</h3>
+            <h3>The Browser Examination Engine (Title-Desk &amp; Artificial Landman)</h3>
             <p style="font-size:0.93rem;">
               Both <strong>title-desk.com</strong> and <strong>artificiallandman.io</strong> execute the exact same Texas-specific hosted verification pipeline:
             </p>
@@ -81,12 +81,12 @@ export function renderDesktopGuidePage() {
               <li><strong>Free Pre-Payment Scope Check:</strong> Validates Texas county, abstracts/surveys, gross acreage, and internal packet consistency before charging a cent.</li>
               <li><strong>Examiner Model 1 (Chain Builder):</strong> Reads every recorded instrument and builds the chronological chain of title with exact Vol/Page or Document # citations.</li>
               <li><strong>Examiner Model 2 (Independent Ownership Examiner):</strong> Independently works all conveyances, reservations, Duhig steps, double fractions, and pre/post-Sept. 1, 1993 Texas community-property intestacy splits.</li>
-              <li><strong>Cross-Family Validator (Model 3):</strong> A validator from a separate frontier AI model family visually inspects the actual scanned page PNGs and blocks workbook output until all three models reconcile.</li>
+              <li><strong>Cross-Family Validator (Model 3) &amp; Readback Gate:</strong> An independent third model from a separate provider inspects the final answer against the scanned page images, giving the examiner one repair pass and keeping any still-unresolved tract as a proposal leading the curative requirements; an independent reader then reopens the written .xlsx file and stops delivery on any mismatch.</li>
               <li><strong>Four-Sheet Excel Deliverable:</strong> Outputs <code>Summary</code>, <code>Ownership</code>, <code>Runsheet</code>, and <code>Title Review</code> — explicitly naming any referenced prior deed missing from the upload packet.</li>
             </ul>
           </div>
           <div class="tool-dossier dossier-leader" style="margin-bottom:0;">
-            <h3>The Local Workstation: TitleDesk Desktop Agent (desktop.title-desk.com)</h3>
+            <h3>The Local Workstation: Title-Desk Agent (desktop.title-desk.com)</h3>
             <p style="font-size:0.93rem;">
               For working landmen, title attorneys, and brokerages managing multi-tract units, rural courthouse photo archives, and strict operator deliverable specs:
             </p>
@@ -130,7 +130,7 @@ export function renderDesktopGuidePage() {
                 <td>Full 3-model verified 4-sheet Excel output</td>
               </tr>
               <tr>
-                <td><strong>Upload Run</strong> (TitleDesk Web &amp; Artificial Landman)</td>
+                <td><strong>Upload Run</strong> (Title-Desk &amp; Artificial Landman)</td>
                 <td class="mono"><strong>$249 / run</strong></td>
                 <td>Up to 400 pages (+$40 per extra 200 pp)</td>
                 <td class="mono">$249.00 / run (~$0.62/pp)</td>
@@ -172,14 +172,14 @@ export function renderDesktopGuidePage() {
                 <td>No retrieval fee; email &amp; phone support for land departments</td>
               </tr>
               <tr class="row-leader">
-                <td><strong>TitleDesk Desktop Agent — Individual</strong></td>
+                <td><strong>Title-Desk Agent — Individual</strong></td>
                 <td class="mono"><strong>$199 / seat / mo</strong></td>
                 <td>Unlimited local projects &amp; $0 local OCR</td>
                 <td class="mono">$19.90/run @ 10 runs/mo</td>
                 <td>7-day trial ($1 card check refunded) or month-to-month; BYO AI &amp; portals</td>
               </tr>
               <tr>
-                <td><strong>TitleDesk Desktop Agent — Enterprise</strong></td>
+                <td><strong>Title-Desk Agent — Enterprise</strong></td>
                 <td class="mono"><strong>$349 / seat / mo</strong> ($4,188/yr)</td>
                 <td>Company workspaces + Customization Lab</td>
                 <td class="mono">$349/seat/mo (12-mo term)</td>
@@ -228,7 +228,7 @@ export function renderDesktopGuidePage() {
                 <th>Mechanical Title Task</th>
                 <th>Conservative Manual Minutes</th>
                 <th>45-Deed Chain Manual Time</th>
-                <th>How TitleDesk &amp; Artificial Landman Handle It</th>
+                <th>How Title-Desk &amp; Artificial Landman Handle It</th>
               </tr>
             </thead>
             <tbody>
@@ -248,12 +248,12 @@ export function renderDesktopGuidePage() {
   `;
 
   return renderLayout({
-    title: 'TitleDesk, Artificial Landman & TitleDesk Desktop Agent — Co-#1 Technical Deep Dive',
+    title: 'Title-Desk, Artificial Landman & Title-Desk Agent — Co-#1 Technical Deep Dive',
     description:
-      'In-depth architectural review of co-#1 ranked TitleDesk (title-desk.com), Artificial Landman (artificiallandman.io), and TitleDesk Desktop Agent (desktop.title-desk.com): 3-model verification, BigInt fraction math, local $0 OCR, and full pricing.',
+      'In-depth architectural review of co-#1 ranked Title-Desk (title-desk.com), Artificial Landman (artificiallandman.io), and Title-Desk Agent (desktop.title-desk.com): 3-model verification, BigInt fraction math, local $0 OCR, and full pricing.',
     canonicalPath: '/titledesk-desktop/',
     currentNav: '/titledesk-desktop/',
-    breadcrumbs: [{ href: '/titledesk-desktop/', label: 'TitleDesk & Artificial Landman Deep Dive' }],
+    breadcrumbs: [{ href: '/titledesk-desktop/', label: 'Title-Desk & Artificial Landman Deep Dive' }],
     showInlineDisclosure: true,
     customDisclosureText: SITE.disclosureArticleOwnProduct,
     jsonLd: softwareSchema,

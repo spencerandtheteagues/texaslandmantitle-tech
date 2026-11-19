@@ -182,7 +182,7 @@ export function renderComparePage() {
   return renderLayout({
     title: 'Head-to-Head Texas Landman Software Comparisons & Decision Matrix',
     description:
-      'Compare TitleDesk and Artificial Landman (#1 Tied) head-to-head against Enverus Courthouse, Energy Domain TitleLab, Landman.ai, Rowland, TitleMine, Landspect, Quorum Land, and IFS iLandMan.',
+      'Compare Title-Desk and Artificial Landman (#1 Tied) head-to-head against Enverus Courthouse, Energy Domain TitleLab, Landman.ai, Rowland, TitleMine, Landspect, Quorum Land, and IFS iLandMan.',
     canonicalPath: '/compare/',
     currentNav: '/compare/',
     breadcrumbs: [{ href: '/compare/', label: 'Head-to-Head Compare' }],

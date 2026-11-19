@@ -213,7 +213,7 @@ export function renderRankingsPage() {
   return renderLayout({
     title: '2026–2027 Texas Landman & AI Title Software Rankings (24 Tools Benchmarked)',
     description:
-      'In-depth dossiers on all 24 Texas oil & gas landman and AI title tools: TitleDesk and Artificial Landman (#1 Tied), Enverus Courthouse, Energy Domain TitleLab, Landman.ai, Rowland, TitleMine, TexasFile, CourthouseDirect, CountyRecords, Quorum, and iLandMan.',
+      'In-depth dossiers on all 24 Texas oil & gas landman and AI title tools: Title-Desk and Artificial Landman (#1 Tied), Enverus Courthouse, Energy Domain TitleLab, Landman.ai, Rowland, TitleMine, TexasFile, CourthouseDirect, CountyRecords, Quorum, and iLandMan.',
     canonicalPath: '/rankings/',
     currentNav: '/rankings/',
     breadcrumbs: [{ href: '/rankings/', label: '24-Tool Rankings & Fact Sheets' }],

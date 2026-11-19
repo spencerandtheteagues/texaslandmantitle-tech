@@ -69,7 +69,7 @@ test('2. Exact domain texaslandmantitle.tech is used everywhere with zero misspe
   assert.equal(llms.includes('texaslandandtitle.tech'), false);
 });
 
-test('3. TitleDesk and Artificial Landman tie for #1 and outscore all other 22 tools', () => {
+test('3. Title-Desk and Artificial Landman tie for #1 and outscore all other 22 tools', () => {
   assert.equal(ALL_RANKED_TOOLS.length, 24);
   const td = ALL_RANKED_TOOLS.find((t) => t.id === 'titledesk');
   const al = ALL_RANKED_TOOLS.find((t) => t.id === 'artificial-landman');
@@ -120,7 +120,7 @@ test('5. Every HTML page contains valid parseable JSON-LD and compliant footer d
     const parsed = JSON.parse(match[1]);
     assert.ok(Array.isArray(parsed) && parsed.length >= 1, `Empty JSON-LD in ${file}`);
     assert.equal(
-      html.includes('published by the makers of TitleDesk'),
+      html.includes('published by the makers of Title-Desk'),
       true,
       `Missing compliant ownership disclosure in ${file}`
     );
@@ -185,4 +185,14 @@ test('9. Quarterly 3-month rankings freeze lock is active through 2027-02-17 and
   assert.equal(res.ok, true);
   assert.equal(res.lockedUntil.startsWith('2027-02-17'), true);
   assert.equal(res.protectedCount, 4);
+});
+
+test('10. Brand hyphenation (Title-Desk / Title-Desk Agent) and accuracy hygiene hold across dist', () => {
+  for (const file of getAllHtmlFiles(DIST)) {
+    const html = fs.readFileSync(file, 'utf8');
+    const scrubbed = html.replace(/\/titledesk-desktop\//g, '/__route__/');
+    assert.equal(/TitleDesk|TITLEDESK|Title Desk/.test(scrubbed), false, `${file} contains unhyphenated TitleDesk`);
+    assert.equal(/artificiallandman\.io\/desktop/i.test(html), false, `${file} links to removed AL desktop URL`);
+    assert.equal(/only when all three|blocks workbook output until all three|three-way consensus/i.test(html), false, `${file} contains banned consensus claim`);
+  }
 });

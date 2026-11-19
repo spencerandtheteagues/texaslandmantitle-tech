@@ -24,7 +24,7 @@ export function renderUnitEconomicsPage() {
         <span class="rubric-pill">Empirical Cost vs. Gain &amp; Break-Even Study</span>
         <h1>Texas Landman Software Unit Economics: Time, Work &amp; Net Dollar Savings</h1>
         <p class="lead-deck">
-          A rigorous per-assignment and monthly unit-economics breakdown comparing manual $600/day abstracting against TitleDesk, Artificial Landman, TitleDesk Desktop Agent, point tools, and Texas courthouse record portals.
+          A rigorous per-assignment and monthly unit-economics breakdown comparing manual $600/day abstracting against Title-Desk, Artificial Landman, Title-Desk Agent, point tools, and Texas courthouse record portals.
         </p>
       </div>
     </section>
@@ -170,7 +170,7 @@ export function renderUnitEconomicsPage() {
   return renderLayout({
     title: 'Unit Economics, Cost vs. Gain & Courthouse Fee Guide for Texas Landman Tools',
     description:
-      'Detailed unit economics, ROI break-even calculator, and 2026 Texas courthouse copy fee comparison across TitleDesk, Artificial Landman, TitleDesk Desktop Agent, TitleMine, Rowland, TexasFile, CourthouseDirect, and CountyRecords.com.',
+      'Detailed unit economics, ROI break-even calculator, and 2026 Texas courthouse copy fee comparison across Title-Desk, Artificial Landman, Title-Desk Agent, TitleMine, Rowland, TexasFile, CourthouseDirect, and CountyRecords.com.',
     canonicalPath: '/unit-economics/',
     currentNav: '/unit-economics/',
     breadcrumbs: [{ href: '/unit-economics/', label: 'Unit Economics & ROI' }],

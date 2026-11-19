@@ -35,13 +35,13 @@ export const MANUAL_TASK_BENCHMARKS = Object.freeze([
     task: 'Assemble numbered deliverable folder tree and rename/file source instrument PDFs',
     manualMinutes: 55,
     typical45DocChainMinutes: 55,
-    automatedByTitleDeskAndAL: 'Automated in TitleDesk Desktop Agent custom folder-tree builder',
+    automatedByTitleDeskAndAL: 'Automated in Title-Desk Agent custom folder-tree builder',
   },
   {
     task: 'Re-format a completed MOR / DDR report to satisfy a second operator\'s column layout',
     manualMinutes: 45,
     typical45DocChainMinutes: 45,
-    automatedByTitleDeskAndAL: 'Zero-code template switch in TitleDesk Desktop Agent',
+    automatedByTitleDeskAndAL: 'Zero-code template switch in Title-Desk Agent',
   },
 ]);
 
@@ -116,7 +116,7 @@ export const VOLUME_UNIT_ECONOMICS = Object.freeze([
     idleMonthBurn: '$0 (contractor) / $10k+ (salaried)',
   },
   {
-    option: 'TitleDesk Browser OR Artificial Landman (Optimal Tier)',
+    option: 'Title-Desk Browser OR Artificial Landman (Optimal Tier)',
     pricingBasis: '$249 PAYG · Solo $1,299 (8) · Pro $3,899 (25) · Ent $9,999 (70) + 2.2 hr CPL review',
     cost1Run: '$414 ($165 on free 1st ≤150pp run)',
     cost5Runs: '$2,070 ($249×5 + review)',
@@ -127,7 +127,7 @@ export const VOLUME_UNIT_ECONOMICS = Object.freeze([
     idleMonthBurn: '$0 on PAYG',
   },
   {
-    option: 'TitleDesk Desktop Agent ($199/mo Individual Seat)',
+    option: 'Title-Desk Agent ($199/mo Individual Seat)',
     pricingBasis: '$199/mo flat seat + ~$8/run BYO AI + $0 local OCR + 2.8 hr local review',
     cost1Run: '$417',
     cost5Runs: '$1,289',

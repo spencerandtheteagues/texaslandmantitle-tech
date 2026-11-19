@@ -7,9 +7,9 @@ export const TIER1_TOOLS = Object.freeze([
     rank: 1,
     rankDisplay: '#1 (Tied)',
     isTiedLeader: true,
-    name: 'TitleDesk (Browser Run Engine + Desktop Agent)',
-    shortName: 'TitleDesk',
-    vendor: 'TitleDesk',
+    name: 'Title-Desk (Browser Run Engine + Title-Desk Agent)',
+    shortName: 'Title-Desk',
+    vendor: 'Title-Desk',
     website: 'https://title-desk.com/',
     secondaryUrl: 'https://desktop.title-desk.com/',
     category: 'End-to-End AI Mineral Title Examination & Local Desktop Workstation',
@@ -24,39 +24,39 @@ export const TIER1_TOOLS = Object.freeze([
       practiceOps: 96,
     },
     pricingSummary:
-      'Browser: $249/upload run (1st run free ≤150 pp); Plans $1,299–$9,999/mo · Desktop Agent: $199/seat/mo Individual, $349/seat/mo Enterprise',
+      'Browser: $249/upload run (1st run free ≤150 pp); Plans $1,299–$9,999/mo · Title-Desk Agent: $199/seat/mo Individual, $349/seat/mo Enterprise',
     pricingDetail:
-      'Hosted Web (title-desk.com): Upload run $249 (open self-serve, includes up to 400 pages; +$40 per extra 200 pages; first upload run free up to 150 pages; full run credit if a run fails). Hybrid $349 (includes $60 record copies, by invitation) and Full Service $449 (includes $125 record copies, by invitation). Subscriptions: Solo $1,299/mo ($12,990/yr, 8 runs, 1 seat, $219 extra run = $162.38/run), Pro $3,899/mo ($38,990/yr, 25 runs, 3 seats, $199 extra run = $155.96/run), Enterprise $9,999/mo ($99,990/yr, 70 runs, 10 seats, $179 extra run = $142.84/run). Desktop Agent (desktop.title-desk.com): $199/seat/mo Individual (7-day trial), $349/seat/mo Enterprise (12-mo contract, 14-day 5-seat demo, optional $5,000 15-day custom company build-out; $199/seat/mo Founder Year-1 rate on first 40+ seat order).',
+      'Hosted Web (title-desk.com): Upload run $249 (open self-serve, includes up to 400 pages; +$40 per extra 200 pages; first upload run free up to 150 pages; full run credit if a run fails). Hybrid $349 (includes $60 record copies, by invitation) and Full Service $449 (includes $125 record copies, by invitation). Subscriptions: Solo $1,299/mo ($12,990/yr, 8 runs, 1 seat, $219 extra run = $162.38/run), Pro $3,899/mo ($38,990/yr, 25 runs, 3 seats, $199 extra run = $155.96/run), Enterprise $9,999/mo ($99,990/yr, 70 runs, 10 seats, $179 extra run = $142.84/run). Title-Desk Agent (desktop.title-desk.com): $199/seat/mo Individual (7-day trial), $349/seat/mo Enterprise (12-mo contract, 14-day 5-seat demo, optional $5,000 15-day custom company build-out; $199/seat/mo Founder Year-1 rate on first 40+ seat order).',
     publicPricing: true,
     startingPriceNumeric: 199,
     texasCoverage:
-      'All 254 Texas counties (1 county per hosted browser run; unlimited local multi-tract projects in Desktop Agent with TexasFile, CourthouseDirect, CountyRecords.com & Texas RRC connectors)',
+      'All 254 Texas counties (1 county per hosted browser run; unlimited local multi-tract projects in Title-Desk Agent with TexasFile, CourthouseDirect, CountyRecords.com & Texas RRC connectors)',
     whoUsesIt:
-      'Independent field and in-house CPLs/RPLs, Texas title brokerage shops (1–50+ examiners), mineral & royalty acquisition teams, and E&P operator land departments needing both turnkey browser-delivered four-sheet workbooks and an offline-capable local workstation for complex multi-tract packages.',
+      'Independent field and in-house CPLs/RPLs, Texas title brokerage shops (1–50+ examiners), mineral acquisition teams, and E&P operator land departments needing both turnkey browser-delivered four-sheet workbooks and an offline-capable local workstation for complex multi-tract packages.',
     exactWorkTypes: [
-      'Sovereign patent-to-present mineral and royalty chain-of-title runsheets across all 254 Texas counties',
-      'Exact-fraction Net Mineral Acre (NMA) and leasehold NRI ownership takeoffs (Duhig, double-fraction, and pre/post-Sept. 1, 1993 Texas intestacy rules)',
+      'Sovereign patent-to-present current mineral interest (MI) chain-of-title runsheets across all 254 Texas counties',
+      'Exact-fraction Net Mineral Acre (NMA) and current mineral ownership takeoffs (Duhig, double-fraction, and pre/post-Sept. 1, 1993 Texas intestacy rules)',
       'Local zero-fee Tesseract OCR of scanned PDFs and multi-page county clerk TIFF image bundles',
       'Curative defect schedules, heirship trees, lease expiration tracking, and RRC well/production cross-checks',
       'Custom client-template Excel/Word reports (PLM, DDR, MOR) and automated numbered folder-tree assembly',
     ],
     overview:
-      'TitleDesk ties with Artificial Landman for the #1 overall position because it is the only platform in the oil and gas market that pairs a three-model, cross-family browser examination engine (title-desk.com) with a full-lifecycle native desktop workstation (TitleDesk Desktop Agent at desktop.title-desk.com). On the hosted web platform, a landman enters the Texas county, surveys/abstracts, and gross acreage, passes a free pre-payment scope consistency check, and uploads the recorded deed packet; Examiner Model 1 constructs the chronological chain of title, Examiner Model 2 independently derives mineral ownership, and a third Validator from a different frontier AI model family audits every link, reservation, and probate split directly against the cited page images before releasing the four-sheet Excel workbook (Summary, Ownership, Runsheet, Title Review). For examiners managing ongoing multi-tract units, custom client folder trees, or confidential local files, TitleDesk Desktop Agent adds unlimited $0-per-page local Tesseract OCR, deterministic BigInt exact-fraction ledger arithmetic (where 1/3 + 1/3 + 1/3 equals 1 with zero floating-point drift), human propose-to-accept review gates, direct BYO courthouse portal retrieval, and exact-cents time and expense billing.',
+      'Title-Desk ties with Artificial Landman for the #1 overall position because it is the only platform in the oil and gas market that pairs a three-model, cross-family browser examination engine (title-desk.com) with a full-lifecycle native desktop workstation (Title-Desk Agent at desktop.title-desk.com). On the hosted web platform, a landman enters the Texas county, surveys/abstracts, and gross acreage, passes a free pre-payment scope consistency check, and uploads the recorded deed packet; two Gemini sessions examine the records separately while a deterministic program checks every mineral fraction exactly, and an independent third model from a different provider checks the final answer against the page images (with one repair pass; anything still unresolved stays a proposal leading the curative requirements). After the four-sheet draft Excel workbook (Summary, Ownership, Runsheet, Title Review) is written, an independent .xlsx readback reader verifies every owner, fraction, NMA figure, and curative requirement against the examination result before delivery. For examiners managing ongoing multi-tract units, custom client folder trees, or confidential local files, Title-Desk Agent adds unlimited $0-per-page local Tesseract OCR, deterministic BigInt exact-fraction ledger arithmetic (where 1/3 + 1/3 + 1/3 equals 1 with zero floating-point drift), human propose-to-accept review gates, direct BYO courthouse portal retrieval, and exact-cents time and expense billing.',
     desktopProgramNote:
-      'TitleDesk Desktop Agent (macOS native Apple Silicon build, Linux AppImage, and Windows build) runs local SQLite storage, offline Tesseract OCR + @napi-rs/canvas TIFF/PDF rendering in the main process with zero cloud per-page fees, 23-type instrument classification, BigInt rational ownership math, unsupported-row report blocking ("NOT READY TO ISSUE" if any figure lacks an accepted source instrument), local Google Drive mount detection without OAuth cloud lock-in, and bring-your-own AI provider selection (ChatGPT/Codex, Claude, Anthropic/OpenAI API, Moonshot/Kimi, or local air-gapped Ollama).',
+      'Title-Desk Agent (macOS native Apple Silicon build, Linux AppImage, and Windows build) runs local SQLite storage, offline Tesseract OCR + @napi-rs/canvas TIFF/PDF rendering in the main process with zero cloud per-page fees, 23-type instrument classification, BigInt rational ownership math, unsupported-row report blocking ("NOT READY TO ISSUE" if any figure lacks an accepted source instrument), local Google Drive mount detection without OAuth cloud lock-in, and bring-your-own AI provider selection (ChatGPT/Codex, Claude, Anthropic/OpenAI API, Moonshot/Kimi, or local air-gapped Ollama).',
     pros: [
-      'Only suite offering both a zero-setup 3-model browser workbook service ($249/run) and an offline-capable local Desktop Agent ($199/seat/mo)',
-      'Three-model cross-family consensus gate on hosted runs verifies chain construction and NMA math against actual page images before issuing output',
+      'Only suite offering both a zero-setup 3-model browser workbook service ($249/run) and an offline-capable local Title-Desk Agent workstation ($199/seat/mo)',
+      'Two separate Gemini sessions plus an independent cross-family page-image validator (with one repair pass and unresolved tracts flagged first in curative requirements) plus an independent .xlsx readback verification gate',
       'Deterministic BigInt exact-fraction ownership engine eliminates floating-point rounding drift and catches Duhig over-conveyances and tract imbalances automatically',
-      'Zero per-page OCR cost in Desktop Agent via local Tesseract processing of PDFs and multi-page courthouse TIFFs',
+      'Zero per-page OCR cost in Title-Desk Agent via local Tesseract processing of PDFs and multi-page courthouse TIFFs',
       'Free pre-run abstract/acreage check prior to payment, full credit guarantee on failed hosted runs, and fully published self-serve pricing across every tier',
       'Produces client-formatted Excel/Word deliverables and custom folder trees in seconds rather than 45–55 minutes of manual reformatting per client',
     ],
     cons: [
-      'Hosted browser runs are scoped to Texas mineral assignments (one county per run) rather than 50-state residential surface title commitments',
+      'Hosted browser runs are scoped to Texas current mineral interest (MI) assignments (one county per run) rather than royalty/NPRI/working-interest schedules or 50-state surface title commitments',
       'Hybrid ($349) and Full-Service ($449) automated courthouse retrieval tiers currently onboard by invitation while Upload ($249) is open to all users',
       'Deliberately enforces human landman or attorney sign-off rather than issuing automated legal title opinions',
-      'Desktop Agent connects through your own TexasFile, CourthouseDirect, or CountyRecords.com credentials rather than bundling an expensive proprietary data plant',
+      'Title-Desk Agent connects through your own TexasFile, CourthouseDirect, or CountyRecords.com credentials rather than bundling an expensive proprietary data plant',
     ],
     unitEconomics: {
       model: 'Pay-per-run ($249) or volume plan ($142.84–$162.38/run) on Web · Flat $199–$349/seat/mo on Desktop',
@@ -64,7 +64,7 @@ export const TIER1_TOOLS = Object.freeze([
       savesTime: {
         verdict: 'Yes — High (65%–82% reduction on mechanical chain & workbook work)',
         detail:
-          'Reproducible 10-assignment benchmark measured 17.6 hours of manual abstracting, conveyance ledger math, balance checking, defect writeups, and client folder assembly compressed into guided acceptance review; hosted runs turn 2–4 days of manual deed chaining into an ~1-hour verified four-sheet workbook.',
+          'Reproducible 10-assignment benchmark measured 17.6 hours of manual abstracting, conveyance ledger math, balance checking, defect writeups, and client folder assembly compressed into guided acceptance review; hosted runs turn 2–4 days of manual deed chaining into a review-ready draft four-sheet workbook.',
       },
       savesWork: {
         verdict: 'Yes — Eliminates transcription, fraction math, OCR & reformatting drudgery',
@@ -74,25 +74,25 @@ export const TIER1_TOOLS = Object.freeze([
       savesMoney: {
         verdict: 'Yes — $950 to $2,400+ net labor savings per complex Texas tract chain',
         detail:
-          'At a standard $550–$700/day field landman rate, 2.5 days of manual abstracting and ownership math costs $1,375–$1,750 in labor versus $249 for a hosted Upload run (or $199/mo flat seat cost on Desktop Agent with $0 OCR fees).',
+          'At a standard $550–$700/day field landman rate, 2.5 days of manual abstracting and ownership math costs $1,375–$1,750 in labor versus $249 for a hosted Upload run (or $199/mo flat seat cost on Title-Desk Agent with $0 OCR fees).',
       },
       costVsGainSummary:
-        'Breaks even on the very first assignment each month: one hosted $249 Upload run or a single afternoon saved on the $199/mo Desktop Agent recovers 3×–6× its cost in billable landman hours while eliminating unbilled client re-work from fraction errors.',
+        'Breaks even on the very first assignment each month: one hosted $249 Upload run or a single afternoon saved on the $199/mo Title-Desk Agent recovers 3×–6× its cost in billable landman hours while eliminating unbilled client re-work from fraction errors.',
     },
     usability: {
       easeOfUseScore: 9.6,
-      effectiveComplexity: 'Low (Browser) · Low-Moderate (Desktop Agent)',
+      effectiveComplexity: 'Low (Browser) · Low-Moderate (Title-Desk Agent)',
       complexityDetail:
-        'Browser runs require only county/tract metadata and PDF deed uploads; pre-run verification flags scope mismatches automatically. Desktop Agent adds richer multi-tract workspaces, client template mapping, and portal connectors, which follow a clean propose-then-accept checklist.',
+        'Browser runs require only county/tract metadata and PDF deed uploads; pre-run verification flags scope mismatches automatically. Title-Desk Agent adds richer multi-tract workspaces, client template mapping, and portal connectors, which follow a clean propose-then-accept checklist.',
       lciScore: 14,
       lciBand: 'Immediate Mastery (Web: 12) / Same-Day Working Proficiency (Desktop: 24)',
-      timeToProficiency: '20 minutes (Browser Run Engine) · 2 – 3 hours (Desktop Agent full workstation)',
+      timeToProficiency: '20 minutes (Browser Run Engine) · 2 – 3 hours (Title-Desk Agent full workstation)',
     },
     sources: [
-      { label: 'TitleDesk Browser Platform & Workflow', url: 'https://title-desk.com/', verifiedDate: '2026-11-17', sourceType: 'Direct Vendor Page' },
-      { label: 'TitleDesk Run & Plan Pricing Schedule', url: 'https://title-desk.com/pricing', verifiedDate: '2026-11-17', sourceType: 'Direct Vendor Page' },
-      { label: 'TitleDesk Desktop Agent Architecture & Licensing', url: 'https://desktop.title-desk.com/', verifiedDate: '2026-11-17', sourceType: 'Direct Vendor Page' },
-      { label: 'TitleDesk Desktop How It Works & Benchmarks', url: 'https://desktop.title-desk.com/how-it-works/', verifiedDate: '2026-11-17', sourceType: 'Direct Vendor Page' },
+      { label: 'Title-Desk Browser Platform & Workflow', url: 'https://title-desk.com/', verifiedDate: '2026-11-18', sourceType: 'Direct Vendor Page' },
+      { label: 'Title-Desk Run & Plan Pricing Schedule', url: 'https://title-desk.com/pricing', verifiedDate: '2026-11-18', sourceType: 'Direct Vendor Page' },
+      { label: 'Title-Desk Agent Architecture & Licensing', url: 'https://desktop.title-desk.com/', verifiedDate: '2026-11-18', sourceType: 'Direct Vendor Page' },
+      { label: 'Title-Desk Agent How It Works & Benchmarks', url: 'https://desktop.title-desk.com/how-it-works/', verifiedDate: '2026-11-18', sourceType: 'Direct Vendor Page' },
     ],
   },
   {
@@ -104,8 +104,7 @@ export const TIER1_TOOLS = Object.freeze([
     shortName: 'Artificial Landman',
     vendor: 'Artificial Landman',
     website: 'https://artificiallandman.io/',
-    secondaryUrl: 'https://artificiallandman.io/desktop',
-    category: 'Purpose-Built AI Subsurface & Mineral Title Examination Platform',
+    category: 'Purpose-Built AI Texas Mineral Title Examination Platform for Land Teams',
     tierGroup: 'tier1-ai-title',
     compositeScore: 96.4,
     subscores: {
@@ -119,50 +118,50 @@ export const TIER1_TOOLS = Object.freeze([
     pricingSummary:
       '$249/upload run (1st upload run free ≤150 pp); Hybrid $349 & Full $449 (by invitation); Solo $1,299/mo · Pro $3,899/mo · Enterprise $9,999/mo',
     pricingDetail:
-      'Pay-per-run: Upload $249/run (open self-serve, up to 400 pages included, +$40 per additional 200-page block; first upload run free up to 150 pages; full credit if run fails). Hybrid $349/run (by invitation; includes up to $60 of missing courthouse record copies) and Full Service $449/run (by invitation; includes up to $125 of record copies; copies above allowance billed only after user approval at provider price + $0.25 + 3%). Monthly/Annual Plans: Solo $1,299/mo ($12,990/yr, 8 runs, 1 seat, $219 extra run), Pro $3,899/mo ($38,990/yr, 25 runs, 3 seats, $199 extra run), Enterprise $9,999/mo ($99,990/yr, 70 runs, 10 seats, $179 extra run). Companion desktop workstation available via /desktop.',
+      'Pay-per-run: Upload $249/run (open self-serve, up to 400 pages included, +$40 per additional 200-page block; first upload run free up to 150 pages; run credit returned if a run fails). Hybrid $349/run (by invitation; includes up to $60 of missing courthouse record copies) and Full Service $449/run (by invitation; includes up to $125 of record copies; copies above allowance billed only after user approval at provider price + $0.25 + 3%). Monthly/Annual Plans: Solo $1,299/mo ($12,990/yr, 8 runs, 1 seat, $219 extra run), Pro $3,899/mo ($38,990/yr, 25 runs, 3 seats, $199 extra run), Enterprise $9,999/mo ($99,990/yr, 70 runs, 10 seats, $179 extra run).',
     publicPricing: true,
     startingPriceNumeric: 249,
     texasCoverage:
-      'All 254 Texas counties — purpose-built for Texas subsurface, mineral, and royalty title examination (1 county per run)',
+      'All 254 Texas counties — purpose-built for Texas current mineral interest (MI) title examination (1 county per run)',
     whoUsesIt:
-      'Independent Texas mineral examiners, A&D due-diligence landmen, mineral & royalty buyers, family offices auditing Permian/Eagle Ford/Haynesville acreage, and boutique title brokerages wanting immediate zero-install browser runs without annual seat commitments.',
+      'Texas land teams, title brokerages, E&P operators, A&D due-diligence landmen, and mineral acquisition groups running multiple assignments who want one consistent four-sheet workbook format without software installation or annual seat lock-in.',
     exactWorkTypes: [
-      'Subsurface mineral estate and royalty interest chain-of-title examination from uploaded Texas county deed packets',
+      'Current mineral interest (MI) chain-of-title examination from uploaded Texas county deed packets',
       'Rapid A&D pre-bid mineral ownership verification and Net Mineral Acre (NMA) reconciliation across up to 400+ pages per run',
-      'Three-model cross-checked four-sheet Excel title workbooks (Summary, Ownership, Runsheet, Title Review)',
+      'Multi-model cross-checked, readback-verified four-sheet draft Excel title workbooks (Summary, Ownership, Runsheet, Title Review)',
       'Detection of missing prior-referenced instruments, unprobated estate gaps, Duhig over-conveyance exposure, and double-fraction reservations',
-      'Zero-commitment overflow capacity for solo landmen and brokerages facing tight client delivery deadlines',
+      'Consistent overflow capacity for land teams, brokerages, and operators facing tight delivery deadlines',
     ],
     overview:
-      'Artificial Landman (artificiallandman.io) shares the #1 ranking with TitleDesk at an identical 96.4 composite score because it delivers the exact same deterministic Texas mineral-title intake, exact rational fraction verification, and three-model cross-family consensus architecture inside a streamlined, zero-install subsurface examination workflow ("Subsurface & Mineral Title Examination · Built in Texas"). Before a user spends a dime, Artificial Landman runs a free pre-payment consistency check across the assignment\'s Texas county, abstracts, surveys, and gross acreage. During examination, one frontier AI examiner builds the chronological chain from the uploaded instruments, a second independent examiner works the mineral and royalty fractions from scratch, and a third validator from a distinct model family visually checks both against every cited instrument page — writing the four-sheet Excel deliverable (Summary, Ownership, Runsheet, Title Review) only when all three reconcile. It also links directly to the companion local desktop workstation for examiners who want offline OCR and multi-client local repositories.',
+      'Artificial Landman (artificiallandman.io) shares the #1 ranking with Title-Desk at an identical 96.4 composite score because it runs the same deterministic Texas mineral-title intake, exact rational fraction verification, independent third-model page-image check, and .xlsx readback gate — packaged, sold, and supported on its own for land teams, brokerages, and operators who run many assignments. Before a run starts, Artificial Landman runs a free pre-payment scope check across the assignment\'s Texas county, abstracts, surveys, and gross acreage. During examination, two Gemini sessions examine the records separately while a program checks every mineral fraction exactly; an independent third model from a different provider then checks the final answer against the page images, giving the examiner one repair pass and keeping anything still unresolved as a proposal whose findings lead the curative requirements. After the four-sheet draft workbook (Summary, Ownership, Runsheet, Title Review) is written, an independent reader reopens the .xlsx file to confirm exact parity before delivery.',
     desktopProgramNote:
-      'Artificial Landman users who need local offline OCR, direct local file-tree integration, or BYO AI subscriptions can pair browser runs directly with the companion desktop workstation linked at artificiallandman.io/desktop (desktop.title-desk.com), giving teams seamless parity between zero-setup cloud runs and local workstation control.',
+      'Artificial Landman is a standalone, zero-install hosted browser platform built for land teams, brokerages, and operators who want consistent four-sheet draft workbooks across many assignments without installing or maintaining local desktop software.',
     pros: [
-      'Tied #1 verification rigor: three-model cross-family consensus check audits every deed link, reservation, and Texas intestacy split against cited page images',
+      'Tied #1 verification rigor: two separate Gemini examiners, exact rational fraction arithmetic, an independent third-provider page-image check (with one repair pass and unresolved tracts flagged first in curative requirements), plus an independent .xlsx workbook readback gate',
       'Zero software installation, zero annual contract required, and first upload run free up to 150 pages for immediate side-by-side testing on real Texas deeds',
       'Transparent upfront run quoting ($249 up to 400 pages) with free pre-run abstract/acreage check and automatic run credit if an examination fails',
-      'Delivers a clean, formula-ready four-sheet Excel workbook (Summary, Ownership, Runsheet, Title Review) naming any referenced deed missing from the upload packet',
+      'Delivers a clean, consistent four-sheet draft Excel workbook (Summary, Ownership, Runsheet, Title Review) naming any referenced deed missing from the upload packet',
       'Explicit approval gate on any courthouse record copy spend above included Hybrid/Full-Service allowances — never surprises the client with runaway copy bills',
       'Fastest onboarding in the entire benchmark (12/100 Learning Curve Index — full proficiency on assignment #1 in under 20 minutes)',
     ],
     cons: [
-      'Laser-focused on Texas subsurface and mineral title examination (single county per run) rather than non-mineral surface closings or post-closing lease accounting',
+      'Scoped specifically to Texas current mineral interest (MI) title examination (single county per run) rather than royalty/NPRI/working-interest schedules, surface closings, or post-closing lease accounting',
       'Hybrid ($349) and Full-Service ($449) courthouse retrieval tiers are currently by invitation while self-serve Upload ($249) is open immediately',
       'Standard single-seat self-serve accounts run one active examination at a time unless stepped up to multi-seat Pro or Enterprise plans',
-      'Outputs a reviewable, page-cited examination draft workbook rather than a signed attorney title opinion',
+      'Outputs a reviewable, page-cited draft examination workbook rather than a signed attorney title opinion',
     ],
     unitEconomics: {
       model: 'Zero-lock-in $249/run PAYG + tiered monthly/annual run bundles ($142.84–$162.38 effective per run)',
       effectiveCostPerAssignment: '$0 on first qualifying upload run (≤150 pp) · $249 PAYG (≤400 pp, ~$0.62/page) · $142.84/run on Enterprise',
       savesTime: {
-        verdict: 'Yes — High (Turns 16–30 hours of manual deed reading & chaining into ~1 hour)',
+        verdict: 'Yes — High (Compresses 16–30 hours of manual deed reading & chaining into guided review)',
         detail:
           'Eliminates manual chronological sorting, grantor-grantee cross-indexing, multi-heir fraction arithmetic, and four-tab Excel workbook assembly across 150–400+ page packets.',
       },
       savesWork: {
         verdict: 'Yes — Removes two-pass manual self-checking & spreadsheet building',
         detail:
-          'Because two independent AI examiners plus a cross-family validator check every page image before output, the human examiner focuses strictly on final judgment calls and flagged curatives rather than raw transcription.',
+          'Because two separate examination sessions, an independent cross-family page-image validator, and a workbook readback reader check every figure, the human examiner focuses strictly on final judgment calls and flagged curatives rather than raw transcription.',
       },
       savesMoney: {
         verdict: 'Yes — 75%–88% lower unit cost than manual abstracting or enterprise data contracts',
@@ -170,21 +169,20 @@ export const TIER1_TOOLS = Object.freeze([
           'Converts fixed $4,000–$8,000/mo staffing or enterprise software overhead into variable $249 per-tract COGS that maps 1:1 to billable client assignments.',
       },
       costVsGainSummary:
-        'Ideal unit economics for both solo landmen and A&D bursts: zero idle monthly burn between projects on PAYG ($249/run), free first run up to 150 pages to prove ROI risk-free, and $142.84–$162.38/run marginal cost at scale.',
+        'Ideal unit economics for both land teams and A&D bursts: zero idle monthly burn between projects on PAYG ($249/run), free first run up to 150 pages to prove ROI risk-free, and $142.84–$162.38/run marginal cost at scale.',
     },
     usability: {
       easeOfUseScore: 9.8,
       effectiveComplexity: 'Low',
       complexityDetail:
-        'Cleanest workflow in the category: specify Texas county, tracts, abstracts, and gross acres, upload PDFs (with built-in guidance to export spreadsheets/Word notes as PDF), review the free scope check, and receive the four-sheet Excel workbook by email and console.',
+        'Cleanest workflow in the category: specify Texas county, tracts, abstracts, and gross acres, upload deed files, review the free scope check, and receive the four-sheet draft Excel workbook by email and console.',
       lciScore: 12,
       lciBand: 'Immediate Mastery',
       timeToProficiency: '15 – 25 minutes (proficient on first run)',
     },
     sources: [
-      { label: 'Artificial Landman Subsurface Examination Home', url: 'https://artificiallandman.io/', verifiedDate: '2026-11-17', sourceType: 'Direct Vendor Page' },
-      { label: 'Artificial Landman Run & Subscription Pricing', url: 'https://artificiallandman.io/pricing', verifiedDate: '2026-11-17', sourceType: 'Direct Vendor Page' },
-      { label: 'Artificial Landman Desktop Companion Page', url: 'https://artificiallandman.io/desktop', verifiedDate: '2026-11-17', sourceType: 'Direct Vendor Page' },
+      { label: 'Artificial Landman Texas Mineral Examination Home', url: 'https://artificiallandman.io/', verifiedDate: '2026-11-18', sourceType: 'Direct Vendor Page' },
+      { label: 'Artificial Landman Run & Subscription Pricing', url: 'https://artificiallandman.io/pricing', verifiedDate: '2026-11-18', sourceType: 'Direct Vendor Page' },
     ],
   },
   {
@@ -251,7 +249,7 @@ export const TIER1_TOOLS = Object.freeze([
         detail: 'Vendor cites "$1,000 saved per courthouse visit," which offsets annual contract cost for full-time operator teams but not episodic contractors.',
       },
       costVsGainSummary:
-        'High fixed annual commitment with strong velocity gains for 10+ person E&P land departments; independent landmen and agile brokerages achieve far better unit economics pairing TitleDesk or Artificial Landman with on-demand courthouse portals.',
+        'High fixed annual commitment with strong velocity gains for 10+ person E&P land departments; independent landmen and agile brokerages achieve far better unit economics pairing Title-Desk or Artificial Landman with on-demand courthouse portals.',
     },
     usability: {
       easeOfUseScore: 7.8,
@@ -331,7 +329,7 @@ export const TIER1_TOOLS = Object.freeze([
         detail: 'Teams working statewide across Eagle Ford, Haynesville, Barnett, or Gulf Coast still need statewide tools and portals.',
       },
       costVsGainSummary:
-        'Strong basin-specialist ROI for dedicated Permian mineral buyers and operators; less economical than TitleDesk or Artificial Landman for landmen whose assignments move across all 254 Texas counties.',
+        'Strong basin-specialist ROI for dedicated Permian mineral buyers and operators; less economical than Title-Desk or Artificial Landman for landmen whose assignments move across all 254 Texas counties.',
     },
     usability: {
       easeOfUseScore: 8.3,
@@ -411,7 +409,7 @@ export const TIER1_TOOLS = Object.freeze([
         detail: 'Custom Oracle/on-prem engagement scoping carries enterprise setup overhead unsuitable for single-tract assignments.',
       },
       costVsGainSummary:
-        'Strong fit for large multi-state operators needing private-cloud RPA harvesting; overkill and inaccessible for independent Texas landmen who can run TitleDesk or Artificial Landman immediately at $249/run.',
+        'Strong fit for large multi-state operators needing private-cloud RPA harvesting; overkill and inaccessible for independent Texas landmen who can run Title-Desk or Artificial Landman immediately at $249/run.',
     },
     usability: {
       easeOfUseScore: 7.5,
@@ -472,7 +470,7 @@ export const TIER1_TOOLS = Object.freeze([
       'Material inconsistencies across live vendor pages on both pricing ($99–$399/mo vs. $200–$500/search) and county coverage (33 vs. 80 vs. 98 TX counties)',
       'Covers under 40% of Texas\'s 254 counties at maximum stated count, leaving most East, Central, and Gulf Coast counties uncovered',
       '2–8 hour single-tract runtime (24–48 hours for batches) and exports HTML/DOCX/JSON rather than formula-linked client Excel MOR/runsheet workbooks',
-      'No multi-model cross-family consensus check or local desktop OCR application',
+      'No multi-model cross-family page-image check or local desktop OCR application',
     ],
     unitEconomics: {
       model: 'Hybrid subscription ($99–$399/mo blog) or per-search fee ($200–$500/search product page)',
@@ -487,7 +485,7 @@ export const TIER1_TOOLS = Object.freeze([
       },
       savesMoney: {
         verdict: 'Moderate — Comparable or higher per-search cost ($200–$500) with narrower county coverage',
-        detail: 'At $200–$500/search, pricing overlaps TitleDesk/Artificial Landman ($249) while covering ≤98 counties without 3-model verification or Excel deliverables.',
+        detail: 'At $200–$500/search, pricing overlaps Title-Desk/Artificial Landman ($249) while covering ≤98 counties without 3-model verification or Excel deliverables.',
       },
       costVsGainSummary:
         'Intriguing API-friendly Texas engine if county and pricing discrepancies are clarified, but narrower county reach and lack of Excel client deliverables trail the #1 leaders.',
@@ -565,7 +563,7 @@ export const TIER1_TOOLS = Object.freeze([
       },
       savesMoney: {
         verdict: 'Hard to benchmark pre-quote — $0 monthly burn avoids idle waste, per-job fees vary',
-        detail: 'Pass-through courthouse billing prevents copy markups, though per-job service quotes lack TitleDesk/Artificial Landman\'s fixed $249 predictability.',
+        detail: 'Pass-through courthouse billing prevents copy markups, though per-job service quotes lack Title-Desk/Artificial Landman\'s fixed $249 predictability.',
       },
       costVsGainSummary:
         'Zero fixed overhead makes it a handy field-dispatch utility for TexasFile holders, though unpublished per-job pricing and service-queue setup make it less predictable than $249 self-serve runs.',
@@ -619,7 +617,7 @@ export const TIER1_TOOLS = Object.freeze([
       'Division-order decimal reconciliation and assistive curative drafting under human approval gates',
     ],
     overview:
-      'Rowland (an AAPL Affinity Vendor since June 2025 with SOC 2 Type 2 compliance) offers the lowest published entry price ($99/mo) among credible AI land startups and enforces admirable safety hygiene: every extracted clause links to a source page, credit cost is displayed before a run starts, and its "Row Bots" (Owen for chains/runsheets, Lane for deadlines, Nora for owner relations, Drew for curative) operate under written charters that never post to a system of record without human approval. It ranks #8 rather than higher because it is fundamentally a credit-metered document assistant rather than a dedicated Texas mineral-title engine: monthly credits expire, several core multi-step bots and GIS mapping have been rolling out from beta/"coming soon" stages, there is no courthouse record retrieval, and it lacks TitleDesk\'s deterministic BigInt fraction ledger and offline zero-fee OCR.',
+      'Rowland (an AAPL Affinity Vendor since June 2025 with SOC 2 Type 2 compliance) offers the lowest published entry price ($99/mo) among credible AI land startups and enforces admirable safety hygiene: every extracted clause links to a source page, credit cost is displayed before a run starts, and its "Row Bots" (Owen for chains/runsheets, Lane for deadlines, Nora for owner relations, Drew for curative) operate under written charters that never post to a system of record without human approval. It ranks #8 rather than higher because it is fundamentally a credit-metered document assistant rather than a dedicated Texas mineral-title engine: monthly credits expire, several core multi-step bots and GIS mapping have been rolling out from beta/"coming soon" stages, there is no courthouse record retrieval, and it lacks Title-Desk\'s deterministic BigInt fraction ledger and offline zero-fee OCR.',
     desktopProgramNote: 'Cloud browser SaaS (MCP/Claude Code/Codex connectors listed as coming soon); no local offline app.',
     pros: [
       'Lowest published starting price ($99/mo Read, $199/mo Work) with AAPL member discount and upfront credit previews',
@@ -647,7 +645,7 @@ export const TIER1_TOOLS = Object.freeze([
         detail: 'Pays for itself in 2 hours of saved lease reading, though expiring credits penalize uneven monthly workloads.',
       },
       costVsGainSummary:
-        'Best budget secondary assistant ($99/mo) for reading leases, ROW agreements, and prior title opinions; pair with TitleDesk or Artificial Landman when constructing full sovereign mineral chains and exact-fraction NMA workbooks.',
+        'Best budget secondary assistant ($99/mo) for reading leases, ROW agreements, and prior title opinions; pair with Title-Desk or Artificial Landman when constructing full sovereign mineral chains and exact-fraction NMA workbooks.',
     },
     usability: {
       easeOfUseScore: 9.1,
@@ -706,7 +704,7 @@ export const TIER1_TOOLS = Object.freeze([
     cons: [
       'Title Attorneys pay $299–$489/seat/mo (plus volume fees for Abstract Breaker) while Flowchart Builder, full MOR, and Drilling Opinions remain marked "COMING SOON"',
       'No automated courthouse retrieval and no local zero-cost OCR / multi-model deed extraction pipeline — you still read and key in the chain manually',
-      'At $289/mo for a Landman MOR seat, costs $90/mo MORE than TitleDesk Desktop Agent ($199/mo) while automating far less of the chain',
+      'At $289/mo for a Landman MOR seat, costs $90/mo MORE than Title-Desk Agent ($199/mo) while automating far less of the chain',
     ],
     unitEconomics: {
       model: 'Role-based monthly SaaS ($169–$489/seat/mo) + volume-metered Abstract Breaker',
@@ -720,11 +718,11 @@ export const TIER1_TOOLS = Object.freeze([
         detail: 'Reduces broken spreadsheet cell references, though examiners still key instrument data manually.',
       },
       savesMoney: {
-        verdict: 'Limited — Higher seat price ($289–$489 MOR) than TitleDesk Desktop ($199) without AI extraction savings',
+        verdict: 'Limited — Higher seat price ($289–$489 MOR) than Title-Desk Agent ($199) without AI extraction savings',
         detail: 'Role-based surcharges penalize examining attorneys ($489/mo) relative to flat-rate workstations.',
       },
       costVsGainSummary:
-        'Useful PDF abstract-splitting and structured worksheet aid, but TitleDesk Desktop Agent ($199/mo) delivers local OCR, AI extraction, BigInt math, courthouse connectors, and custom deliverables for $90–$290/mo less per seat.',
+        'Useful PDF abstract-splitting and structured worksheet aid, but Title-Desk Agent ($199/mo) delivers local OCR, AI extraction, BigInt math, courthouse connectors, and custom deliverables for $90–$290/mo less per seat.',
     },
     usability: {
       easeOfUseScore: 8.0,
@@ -799,7 +797,7 @@ export const TIER1_TOOLS = Object.freeze([
         detail: 'Upstream landmen would still need a mineral-estate engine to compute severed fractional ownership.',
       },
       costVsGainSummary:
-        'Top-tier choice if you issue surface TLTA title insurance commitments in Texas metro/plant counties; not built to replace TitleDesk or Artificial Landman on subsurface mineral estates.',
+        'Top-tier choice if you issue surface TLTA title insurance commitments in Texas metro/plant counties; not built to replace Title-Desk or Artificial Landman on subsurface mineral estates.',
     },
     usability: {
       easeOfUseScore: 7.7,
@@ -848,7 +846,7 @@ export const TIER1_TOOLS = Object.freeze([
       'Preliminary surface parcel and well-spot visual reconnaissance in loaded counties',
     ],
     overview:
-      'Landspect ("Built by landmen, for landmen") is an openly Beta cloud workstation priced at $249/seat/mo that bundles AI deed reading, runsheets, ownership flowcharts, MOR templates, and strong GIS export formats (KML, DXF, GeoJSON, plat PDFs), plus a manual-entry toggle for confidential files. While its transparent single-tier pricing and CAD/GIS exports are genuinely appealing, the platform candidly labels itself Beta with modules still being refined, many counties "Not loaded," parcel records reflecting surface tax owners rather than severed mineral owners, single-provider cloud AI rather than 3-model verification, and a $249/mo seat price that costs $50/mo more than the mature TitleDesk Desktop Agent ($199/mo).',
+      'Landspect ("Built by landmen, for landmen") is an openly Beta cloud workstation priced at $249/seat/mo that bundles AI deed reading, runsheets, ownership flowcharts, MOR templates, and strong GIS export formats (KML, DXF, GeoJSON, plat PDFs), plus a manual-entry toggle for confidential files. While its transparent single-tier pricing and CAD/GIS exports are genuinely appealing, the platform candidly labels itself Beta with modules still being refined, many counties "Not loaded," parcel records reflecting surface tax owners rather than severed mineral owners, single-provider cloud AI rather than 3-model verification, and a $249/mo seat price that costs $50/mo more than the mature Title-Desk Agent ($199/mo).',
     desktopProgramNote: 'Browser SaaS only (read-only early-access API); no offline desktop app.',
     pros: [
       'Transparent $249/seat/mo all-inclusive pricing and 7-day no-card trial',
@@ -857,7 +855,7 @@ export const TIER1_TOOLS = Object.freeze([
     ],
     cons: [
       'Openly in Beta with incomplete county data ("Not loaded" across numerous counties) and parcel layers limited to surface tax rolls',
-      'Costs $249/seat/mo ($50/mo more than TitleDesk Desktop Agent\'s $199/mo) without local free OCR, courthouse connectors, or BigInt balance proofs',
+      'Costs $249/seat/mo ($50/mo more than Title-Desk Agent\'s $199/mo) without local free OCR, courthouse connectors, or BigInt balance proofs',
       'Deliverable downloads are blocked during the free trial, preventing end-to-end client workbook inspection before paying',
     ],
     unitEconomics: {
@@ -872,11 +870,11 @@ export const TIER1_TOOLS = Object.freeze([
         detail: 'Reduces typing per instrument, without full batch 3-model chain synthesis.',
       },
       savesMoney: {
-        verdict: 'Fair at high volume, outpriced by TitleDesk Desktop ($199/mo)',
-        detail: 'TitleDesk Desktop saves $600/yr per seat while adding offline OCR, CountyRecords/CourthouseDirect/TexasFile connectors, and time/billing.',
+        verdict: 'Fair at high volume, outpriced by Title-Desk Agent ($199/mo)',
+        detail: 'Title-Desk Agent saves $600/yr per seat while adding offline OCR, CountyRecords/CourthouseDirect/TexasFile connectors, and time/billing.',
       },
       costVsGainSummary:
-        'Promising GIS-friendly beta to watch, especially for DXF/KML plotting, but less complete and $50/mo pricier per seat than TitleDesk Desktop Agent today.',
+        'Promising GIS-friendly beta to watch, especially for DXF/KML plotting, but less complete and $50/mo pricier per seat than Title-Desk Agent today.',
     },
     usability: {
       easeOfUseScore: 8.1,
@@ -950,7 +948,7 @@ export const TIER1_TOOLS = Object.freeze([
         detail: 'Best suited for multi-section contiguous unit builds rather than standalone tracts.',
       },
       costVsGainSummary:
-        'Valuable when an Enverus-backed Permian team is chaining dozens of contiguous tracts with shared base title; less transparent and less automated on raw document reading than TitleDesk or Artificial Landman.',
+        'Valuable when an Enverus-backed Permian team is chaining dozens of contiguous tracts with shared base title; less transparent and less automated on raw document reading than Title-Desk or Artificial Landman.',
     },
     usability: {
       easeOfUseScore: 7.2,
@@ -1097,7 +1095,7 @@ export const TIER1_TOOLS = Object.freeze([
         detail: 'Cannot verify ROI without published pricing or sample runs.',
       },
       costVsGainSummary:
-        'Insufficient public documentation and pricing transparency to recommend over proven, publicly priced platforms like TitleDesk ($249/run · $199/mo) and Artificial Landman ($249/run).',
+        'Insufficient public documentation and pricing transparency to recommend over proven, publicly priced platforms like Title-Desk ($249/run · $199/mo) and Artificial Landman ($249/run).',
     },
     usability: {
       easeOfUseScore: 7.0,

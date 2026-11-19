@@ -11,7 +11,7 @@ export function esc(val) {
 const NAV_ITEMS = [
   { href: '/', label: 'Benchmark Desk' },
   { href: '/rankings/', label: '24-Tool Rankings & Fact Sheets' },
-  { href: '/titledesk-desktop/', label: 'TitleDesk & Artificial Landman Deep Dive' },
+  { href: '/titledesk-desktop/', label: 'Title-Desk & Artificial Landman Deep Dive' },
   { href: '/unit-economics/', label: 'Unit Economics & ROI' },
   { href: '/compare/', label: 'Head-to-Head Compare' },
   { href: '/news/', label: 'Texas News & Case Law' },
@@ -133,7 +133,7 @@ export function renderLayout({
         </a>
         <div class="masthead-meta">
           <div>DOMAIN: <strong>texaslandmantitle.tech</strong> · ALL 254 TX COUNTIES</div>
-          <div>Published by the makers of TitleDesk &amp; Artificial Landman</div>
+          <div>Published by the makers of Title-Desk &amp; Artificial Landman</div>
         </div>
       </div>
       <nav class="primary-nav" aria-label="Primary Navigation">
@@ -187,7 +187,7 @@ export function renderLayout({
             <li><a href="/title-runsheet-software/">Title Runsheet Software</a></li>
             <li><a href="/mineral-ownership-calculator-software/">Mineral Ownership &amp; NMA Tools</a></li>
             <li><a href="/deed-ocr-courthouse-records/">Deed OCR &amp; County Portals</a></li>
-            <li><a href="/titledesk-desktop/">TitleDesk &amp; Artificial Landman (#1 Tied)</a></li>
+            <li><a href="/titledesk-desktop/">Title-Desk &amp; Artificial Landman (#1 Tied)</a></li>
             <li><a href="/unit-economics/">Unit Economics &amp; ROI Calculator</a></li>
             <li><a href="/compare/">Head-to-Head Comparisons</a></li>
             <li><a href="/methodology/">Rubric &amp; LCI Methodology</a></li>
@@ -205,8 +205,8 @@ export function renderLayout({
         <div class="footer-col">
           <h4>Co-#1 Ranked Platforms</h4>
           <ul>
-            <li><a href="https://title-desk.com/" rel="noopener">TitleDesk Browser Engine</a></li>
-            <li><a href="https://desktop.title-desk.com/" rel="noopener">TitleDesk Desktop Agent</a></li>
+            <li><a href="https://title-desk.com/" rel="noopener">Title-Desk Browser Engine</a></li>
+            <li><a href="https://desktop.title-desk.com/" rel="noopener">Title-Desk Agent</a></li>
             <li><a href="https://artificiallandman.io/" rel="noopener">Artificial Landman (.io)</a></li>
           </ul>
         </div>

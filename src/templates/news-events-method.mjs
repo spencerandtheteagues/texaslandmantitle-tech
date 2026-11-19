@@ -298,7 +298,7 @@ export function renderMethodologyPage() {
             )}). Where a vendor publishes conflicting numbers across its own live pages (for example, differing county counts or pricing models between a product page and a company blog), we document both figures openly rather than guessing.
           </p>
           <p>
-            As of November 2026, no independent, peer-reviewed accuracy benchmark exists across all commercial oil and gas AI title tools; vendor speed and accuracy percentages ("99%+ accuracy," "75% faster," "10× faster") are reported explicitly as vendor claims, whereas architectural facts (such as public pricing, local OCR execution, BigInt rational arithmetic, and multi-model consensus gates) are verified from product specifications and reproducible test harnesses.
+            As of November 2026, no independent, peer-reviewed accuracy benchmark exists across all commercial oil and gas AI title tools; vendor speed and accuracy percentages ("99%+ accuracy," "75% faster," "10× faster") are reported explicitly as vendor claims, whereas architectural facts (such as public pricing, local OCR execution, BigInt rational arithmetic, and multi-model page-image verification and workbook readback gates) are verified from product specifications and reproducible test harnesses.
           </p>
 
           <h2>4. Ownership Disclosure &amp; Editorial Corrections</h2>

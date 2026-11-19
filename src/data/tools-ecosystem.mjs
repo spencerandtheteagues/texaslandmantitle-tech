@@ -31,19 +31,19 @@ export const ECOSYSTEM_TOOLS = Object.freeze([
     startingPriceNumeric: 0,
     texasCoverage: 'All 254 Texas counties (depth of digitized historical deed years varies by county clerk digitization archive)',
     whoUsesIt:
-      'Virtually every working Texas field landman, title examiner, mineral buyer, and oil & gas attorney pulling raw county clerk deed images — and as a primary document-retrieval feed into TitleDesk Desktop Agent and Artificial Landman.',
+      'Virtually every working Texas field landman, title examiner, mineral buyer, and oil & gas attorney pulling raw county clerk deed images — and as a primary document-retrieval feed into Title-Desk Agent and Artificial Landman.',
     exactWorkTypes: [
       'Free grantor-grantee index searching across Texas county clerk Official Public Records (OPR) and historical Deed Records',
-      'On-demand $1.00/page PDF instrument downloads for uploading into TitleDesk or Artificial Landman',
+      'On-demand $1.00/page PDF instrument downloads for uploading into Title-Desk or Artificial Landman',
       'OCR Super Search across full instrument text and $0.25 county appraisal district mineral roll lookups',
     ],
     overview:
-      'TexasFile is not an AI chain-of-title or ownership-math workstation — it is the foundational public-pricing courthouse image portal for Texas landmen (and is ranked in our Courthouse Infrastructure tier rather than against end-to-end examination engines). Its free index searches, transparent $1.00/page image downloads, 254-county reach, and newer OCR Super Search and $1–$4 instrument summaries make it an indispensable source layer. Experienced landmen pair TexasFile (for pulling raw deeds) directly with TitleDesk or Artificial Landman (to execute 3-model chain verification and exact-fraction NMA workbooks).',
-    desktopProgramNote: 'Web portal; integrates directly as a supported Texas source inside TitleDesk Desktop Agent.',
+      'TexasFile is not an AI chain-of-title or ownership-math workstation — it is the foundational public-pricing courthouse image portal for Texas landmen (and is ranked in our Courthouse Infrastructure tier rather than against end-to-end examination engines). Its free index searches, transparent $1.00/page image downloads, 254-county reach, and newer OCR Super Search and $1–$4 instrument summaries make it an indispensable source layer. Experienced landmen pair TexasFile (for pulling raw deeds) directly with Title-Desk or Artificial Landman (to execute 3-model chain verification and exact-fraction NMA workbooks).',
+    desktopProgramNote: 'Web portal; integrates directly as a supported Texas source inside Title-Desk Agent.',
     pros: [
       'Free grantor/grantee index searches across Texas with crystal-clear $1.00/page pay-as-you-go image pricing and $0 monthly commitment',
       'Covers all 254 Texas counties on its AI & data platform plus low-cost $0.25 mineral tax-roll lookups',
-      'Pairs seamlessly with TitleDesk Desktop Agent and $249 browser upload runs',
+      'Pairs seamlessly with Title-Desk Agent and $249 browser upload runs',
     ],
     cons: [
       'Raw record portal only — builds zero chains of title, computes zero mineral fractions, and generates no runsheets or client workbooks',
@@ -59,14 +59,14 @@ export const ECOSYSTEM_TOOLS = Object.freeze([
       },
       savesWork: {
         verdict: 'Retrieval only — Does not read deeds, calculate NMA, or build runsheets',
-        detail: 'Supplies the raw PDFs that an examination engine like TitleDesk or Artificial Landman then processes.',
+        detail: 'Supplies the raw PDFs that an examination engine like Title-Desk or Artificial Landman then processes.',
       },
       savesMoney: {
         verdict: 'Yes vs. courthouse travel ($500+/trip), best paired with view-before-buy discipline',
         detail: 'Zero monthly burn makes it unbeatable for occasional counties, though heavy single-county runs may favor CourthouseDirect FileViewer previews.',
       },
       costVsGainSummary:
-        'Essential $0-retainer Texas record source; highest ROI comes from pulling targeted PDF packets on TexasFile and feeding them straight into TitleDesk or Artificial Landman.',
+        'Essential $0-retainer Texas record source; highest ROI comes from pulling targeted PDF packets on TexasFile and feeding them straight into Title-Desk or Artificial Landman.',
     },
     usability: {
       easeOfUseScore: 9.0,
@@ -109,15 +109,15 @@ export const ECOSYSTEM_TOOLS = Object.freeze([
     startingPriceNumeric: 50,
     texasCoverage: 'Over 200 counties in Texas & New Mexico on FileViewer; 96 Texas + 9 NM geographic title-plant counties',
     whoUsesIt:
-      'Experienced Texas abstractors, sober-minded brokerage teams, and TitleDesk Desktop Agent users executing "view for ~$0.50 before paying $5+ to buy" courthouse workflows.',
+      'Experienced Texas abstractors, sober-minded brokerage teams, and Title-Desk Agent users executing "view for ~$0.50 before paying $5+ to buy" courthouse workflows.',
     exactWorkTypes: [
       'Browsing scanned historical Texas Deed Record books and handwritten grantor/grantee indexes via FileViewer ($0.33–$0.50/view)',
       'Tract-indexed legal-description searches across 96 Texas geographic title-plant counties',
       'High-volume $1.00–$2.00/document Texas Volume Plan (TVP) retrievals',
     ],
     overview:
-      'Acquired by Enverus in 2020 (though still operated under its classic interface), CourthouseDirect.com remains one of the sharpest cost-saving weapons in a Texas landman\'s kit because of FileViewer ($100/mo for 300 views, then $0.50/view) and its 96 Texas geographic title plants. Rather than blindly buying 40 irrelevant deeds at $1.00–$1.50/page, seasoned examiners inspect historical book pages in FileViewer for pennies and purchase only the true chain instruments — a workflow explicitly built into TitleDesk\'s retrieval logic.',
-    desktopProgramNote: 'Legacy ASPX web portal; supported directly as a BYO credential integration in TitleDesk Desktop Agent.',
+      'Acquired by Enverus in 2020 (though still operated under its classic interface), CourthouseDirect.com remains one of the sharpest cost-saving weapons in a Texas landman\'s kit because of FileViewer ($100/mo for 300 views, then $0.50/view) and its 96 Texas geographic title plants. Rather than blindly buying 40 irrelevant deeds at $1.00–$1.50/page, seasoned examiners inspect historical book pages in FileViewer for pennies and purchase only the true chain instruments — a workflow explicitly built into Title-Desk\'s retrieval logic.',
+    desktopProgramNote: 'Legacy ASPX web portal; supported directly as a BYO credential integration in Title-Desk Agent.',
     pros: [
       'FileViewer ($100/mo for 300 views, $0.50 extra) slashes wasted courthouse copy spend by letting landmen inspect deeds before buying',
       '96 Texas geographic title plants allow true Survey/Abstract/Block/Section tract searching rather than name-only index hunts',
@@ -136,15 +136,15 @@ export const ECOSYSTEM_TOOLS = Object.freeze([
         detail: 'Searching by Abstract/Section in the 96 plant counties bypasses thousands of false-positive name hits.',
       },
       savesWork: {
-        verdict: 'Retrieval & plant indexing only — Pair with TitleDesk for reading & math',
-        detail: 'Delivers the exact right instruments faster, which TitleDesk then turns into runsheets and NMA tables.',
+        verdict: 'Retrieval & plant indexing only — Pair with Title-Desk for reading & math',
+        detail: 'Delivers the exact right instruments faster, which Title-Desk then turns into runsheets and NMA tables.',
       },
       savesMoney: {
         verdict: 'Yes — Best courthouse copy unit economics in Texas for multi-page leases & historical books',
         detail: 'A 25-page oil and gas lease costs $1.00–$2.00 total on TVP vs. $25.00 at $1.00/page elsewhere.',
       },
       costVsGainSummary:
-        'The single highest-leverage courthouse portal for controlling raw Texas record-copy COGS when paired with TitleDesk Desktop Agent or Artificial Landman.',
+        'The single highest-leverage courthouse portal for controlling raw Texas record-copy COGS when paired with Title-Desk Agent or Artificial Landman.',
     },
     usability: {
       easeOfUseScore: 6.8,
@@ -186,14 +186,14 @@ export const ECOSYSTEM_TOOLS = Object.freeze([
     startingPriceNumeric: 0,
     texasCoverage: '220+ Texas counties plus selected New Mexico and Oklahoma counties',
     whoUsesIt:
-      'Texas title examiners, rural-county abstractors, and TitleDesk retrieval workflows needing deep historical volume/page scans across 220+ Texas counties.',
+      'Texas title examiners, rural-county abstractors, and Title-Desk retrieval workflows needing deep historical volume/page scans across 220+ Texas counties.',
     exactWorkTypes: [
       'Searching and previewing historical Texas Deed, Oil & Gas Lease, and Probate volumes across 220+ counties',
       'Whole-document ($3.50/doc) and county-subscription downloads on rural West, South, and East Texas tracts',
     ],
     overview:
-      'Operated by Kyle, Texas-based hal Systems Corporation, CountyRecords.com covers 220+ Texas counties and often holds clean historical volume scans in rural counties where clerk self-hosted portals stop in the 1980s or 1990s. Its $3.50 per-document PAYG option (and $100/200-preview pack) makes multi-page oil and gas instruments reasonable without a monthly commitment, and it is one of the three primary Texas portals natively supported by TitleDesk.',
-    desktopProgramNote: 'Web portal; supported directly as a BYO courthouse connector in TitleDesk.',
+      'Operated by Kyle, Texas-based hal Systems Corporation, CountyRecords.com covers 220+ Texas counties and often holds clean historical volume scans in rural counties where clerk self-hosted portals stop in the 1980s or 1990s. Its $3.50 per-document PAYG option (and $100/200-preview pack) makes multi-page oil and gas instruments reasonable without a monthly commitment, and it is one of the three primary Texas portals natively supported by Title-Desk.',
+    desktopProgramNote: 'Web portal; supported directly as a BYO courthouse connector in Title-Desk.',
     pros: [
       '220+ Texas county footprint with strong rural historical volume coverage',
       '$3.50 flat per-document PAYG option beats per-page pricing on long multi-page deeds, trusts, and probate packets',
@@ -212,7 +212,7 @@ export const ECOSYSTEM_TOOLS = Object.freeze([
         detail: 'Eliminates rural courthouse vault trips across dozens of South, West, and Panhandle counties.',
       },
       savesWork: {
-        verdict: 'Record access only — Pair with TitleDesk or Artificial Landman for examination',
+        verdict: 'Record access only — Pair with Title-Desk or Artificial Landman for examination',
         detail: 'Supplies verified county clerk TIFF/PDF scans into automated examination pipelines.',
       },
       savesMoney: {
@@ -220,7 +220,7 @@ export const ECOSYSTEM_TOOLS = Object.freeze([
         detail: 'A 30-page probate packet costs $3.50 on CountyRecords PAYG doc pricing versus $30.00 at $1.00/page.',
       },
       costVsGainSummary:
-        'Crucial Texas record backbone — combine CountyRecords.com previews/doc pulls with CourthouseDirect and TexasFile inside TitleDesk for minimum record spend.',
+        'Crucial Texas record backbone — combine CountyRecords.com previews/doc pulls with CourthouseDirect and TexasFile inside Title-Desk for minimum record spend.',
     },
     usability: {
       easeOfUseScore: 7.9,
@@ -269,8 +269,8 @@ export const ECOSYSTEM_TOOLS = Object.freeze([
       'Direct free watermarked inspection or $1/page official downloads on county clerk Kofile (`*.tx.publicsearch.us`) portals',
     ],
     overview:
-      'Every defensible Texas mineral chain starts at the General Land Office (sovereign patent and original survey acreage) and ends with a Railroad Commission check (active/inactive wells, pooled units, production reports — bolstered in 2026 by the RRC crossing 100,205,204 digitized records and shifting P-18, PR, P-5, W-3C, and W-3X filings onto LoneSTAR). Alongside direct county clerk portals like Kofile PublicSearch, these public systems cost $0/month in subscriptions, though fragmented county logins and missing pre-1980 clerk scans mean landmen still pair them with TexasFile/CourthouseDirect/CountyRecords and run the assembled packet through TitleDesk or Artificial Landman.',
-    desktopProgramNote: 'Public state/county web portals; TitleDesk Desktop Agent cross-references RRC well/lease data and GLO survey metadata directly.',
+      'Every defensible Texas mineral chain starts at the General Land Office (sovereign patent and original survey acreage) and ends with a Railroad Commission check (active/inactive wells, pooled units, production reports — bolstered in 2026 by the RRC crossing 100,205,204 digitized records and shifting P-18, PR, P-5, W-3C, and W-3X filings onto LoneSTAR). Alongside direct county clerk portals like Kofile PublicSearch, these public systems cost $0/month in subscriptions, though fragmented county logins and missing pre-1980 clerk scans mean landmen still pair them with TexasFile/CourthouseDirect/CountyRecords and run the assembled packet through Title-Desk or Artificial Landman.',
+    desktopProgramNote: 'Public state/county web portals; Title-Desk Agent cross-references RRC well/lease data and GLO survey metadata directly.',
     pros: [
       '$0 subscription cost for official primary-source sovereign patents (GLO), well/production filings (RRC), and participating Kofile county indexes',
       'RRC\'s Feb 2026 100.2M-record digitization milestone and Sept 2026 LoneSTAR e-filing transition dramatically expand online HBP evidence',
@@ -289,14 +289,14 @@ export const ECOSYSTEM_TOOLS = Object.freeze([
       },
       savesWork: {
         verdict: 'Source lookup only — Manual consolidation across separate state & county portals',
-        detail: 'Best used as primary-source inputs uploaded into TitleDesk or Artificial Landman.',
+        detail: 'Best used as primary-source inputs uploaded into Title-Desk or Artificial Landman.',
       },
       savesMoney: {
         verdict: 'Yes — Maximum $0 cost for root patents, survey plats & regulatory HBP proof',
         detail: 'Zero software or portal markup.',
       },
       costVsGainSummary:
-        'Mandatory free primary-source foundation for every Texas title run; feed GLO patents + clerk deeds into TitleDesk or Artificial Landman for automated chaining and NMA math.',
+        'Mandatory free primary-source foundation for every Texas title run; feed GLO patents + clerk deeds into Title-Desk or Artificial Landman for automated chaining and NMA math.',
     },
     usability: {
       easeOfUseScore: 7.4,
@@ -346,7 +346,7 @@ export const ECOSYSTEM_TOOLS = Object.freeze([
       'Tracking signed leases, bonus/rental obligations, and uploaded shapefile maps',
     ],
     overview:
-      'Landboss (v1.44 released Sept 2026) is the strongest back-office brokerage administration platform for independent land services firms — handling contractor day-rate billing, QuickBooks Desktop integration, 1099s, lease obligation calendars, and mail-merge offer letters. Crucially, however, Landboss performs **zero title research**: it has no OCR, no AI document reading, no chain-of-title builder, and no automated NMA engine (note that TitleDesk Desktop Agent is the only AI title workstation that also includes built-in exact-cents time & billing).',
+      'Landboss (v1.44 released Sept 2026) is the strongest back-office brokerage administration platform for independent land services firms — handling contractor day-rate billing, QuickBooks Desktop integration, 1099s, lease obligation calendars, and mail-merge offer letters. Crucially, however, Landboss performs **zero title research**: it has no OCR, no AI document reading, no chain-of-title builder, and no automated NMA engine (note that Title-Desk Agent is the only AI title workstation that also includes built-in exact-cents time & billing).',
     desktopProgramNote: 'Web SaaS with QuickBooks Desktop sync; not a title-examination workstation.',
     pros: [
       'Best-in-class brokerage back-office administration: contractor timesheets, receipts, invoicing, 1099s, and QuickBooks sync',
@@ -372,7 +372,7 @@ export const ECOSYSTEM_TOOLS = Object.freeze([
         detail: 'Complements — never replaces — an AI title examination engine.',
       },
       costVsGainSummary:
-        'Strong brokerage back-office companion for 5–50+ person field leasing crews; pair with TitleDesk or Artificial Landman to perform the actual title examination.',
+        'Strong brokerage back-office companion for 5–50+ person field leasing crews; pair with Title-Desk or Artificial Landman to perform the actual title examination.',
     },
     usability: {
       easeOfUseScore: 8.0,
@@ -442,10 +442,10 @@ export const ECOSYSTEM_TOOLS = Object.freeze([
       },
       savesMoney: {
         verdict: 'Prevents costly missed lease expirations & rental payments for E&P operators',
-        detail: 'Downstream complement to TitleDesk/Artificial Landman, which produce the pre-acquisition title work.',
+        detail: 'Downstream complement to Title-Desk/Artificial Landman, which produce the pre-acquisition title work.',
       },
       costVsGainSummary:
-        'Excellent post-closing system of record for Texas operators running WolfePak; sits downstream of TitleDesk and Artificial Landman in the lifecycle.',
+        'Excellent post-closing system of record for Texas operators running WolfePak; sits downstream of Title-Desk and Artificial Landman in the lifecycle.',
     },
     usability: {
       easeOfUseScore: 7.4,
@@ -492,7 +492,7 @@ export const ECOSYSTEM_TOOLS = Object.freeze([
       'Real-time GIS tract polygon updates tied to net-acreage and working-interest/NRI dashboards',
     ],
     overview:
-      'For two decades iLandMan (acquired by P2 and then by IFS in 2022) has been a staple tract-based E&P land management system, adding AI lease-condition loading and mobile broker capture. Yet confusion persists in generic online lists: **iLandMan does not research title from courthouse deeds**. Examiners must first determine who owns the minerals, trace the chain from patent, and compute exact fractions externally (e.g., in TitleDesk or Artificial Landman) before keying or importing the resulting ownership and lease records into iLandMan.',
+      'For two decades iLandMan (acquired by P2 and then by IFS in 2022) has been a staple tract-based E&P land management system, adding AI lease-condition loading and mobile broker capture. Yet confusion persists in generic online lists: **iLandMan does not research title from courthouse deeds**. Examiners must first determine who owns the minerals, trace the chain from patent, and compute exact fractions externally (e.g., in Title-Desk or Artificial Landman) before keying or importing the resulting ownership and lease records into iLandMan.',
     desktopProgramNote: 'Enterprise cloud SaaS + Land Broker mobile module; not a title-examination workstation.',
     pros: [
       'Mature tract- and formation-depth tracking across complex horizontal drilling units',
@@ -518,7 +518,7 @@ export const ECOSYSTEM_TOOLS = Object.freeze([
         detail: 'Independent landmen only use iLandMan when an operator client provides a contractor login.',
       },
       costVsGainSummary:
-        'Complementary downstream system of record for large E&P operators — TitleDesk and Artificial Landman produce the verified mineral workbooks that get loaded into iLandMan.',
+        'Complementary downstream system of record for large E&P operators — Title-Desk and Artificial Landman produce the verified mineral workbooks that get loaded into iLandMan.',
     },
     usability: {
       easeOfUseScore: 6.7,
@@ -565,7 +565,7 @@ export const ECOSYSTEM_TOOLS = Object.freeze([
       'Enterprise Esri ArcGIS / QGIS Pro spatial asset synchronization',
     ],
     overview:
-      'Houston-based Quorum Software is the heavyweight enterprise system of record for major U.S. operators and introduced Data Extraction in On Demand Land on May 18, 2026 — linking extracted lease/contract values to source page locations with confidence scores for analyst review. Even with that add-on, Quorum Land sits at the **end** of the title supply chain: it manages agreements an operator already owns, whereas field landmen and title examiners use TitleDesk or Artificial Landman to examine courthouse records and prove who owns the minerals in the first place.',
+      'Houston-based Quorum Software is the heavyweight enterprise system of record for major U.S. operators and introduced Data Extraction in On Demand Land on May 18, 2026 — linking extracted lease/contract values to source page locations with confidence scores for analyst review. Even with that add-on, Quorum Land sits at the **end** of the title supply chain: it manages agreements an operator already owns, whereas field landmen and title examiners use Title-Desk or Artificial Landman to examine courthouse records and prove who owns the minerals in the first place.',
     desktopProgramNote: 'Enterprise cloud platform + Esri ArcGIS desktop extensions; not a title-research app.',
     pros: [
       'Unrivaled enterprise scale (90+ North American operators, 11M+ managed agreements) with deep Esri GIS and accounting integration',
@@ -592,7 +592,7 @@ export const ECOSYSTEM_TOOLS = Object.freeze([
         detail: 'Built for operators managing 50,000+ leases, not field title research.',
       },
       costVsGainSummary:
-        'The enterprise destination database where finished title opinions and leases live — completely complementary to TitleDesk and Artificial Landman.',
+        'The enterprise destination database where finished title opinions and leases live — completely complementary to Title-Desk and Artificial Landman.',
     },
     usability: {
       easeOfUseScore: 6.4,
@@ -662,7 +662,7 @@ export const ECOSYSTEM_TOOLS = Object.freeze([
         verdict: 'Midstream / operator admin efficiency only',
         detail: 'Not a substitute for title examination software.',
       },
-      costVsGainSummary: 'Solid midstream/operator agreement database; non-competitor to TitleDesk and Artificial Landman for title research.',
+      costVsGainSummary: 'Solid midstream/operator agreement database; non-competitor to Title-Desk and Artificial Landman for title research.',
     },
     usability: {
       easeOfUseScore: 7.2,
@@ -710,7 +710,7 @@ export const ECOSYSTEM_TOOLS = Object.freeze([
       'Tracking owned mineral acreage, wells, and revenue across family-office or fund portfolios',
     ],
     overview:
-      'MineralSoft (acquired by Enverus) is built for **mineral and royalty owners** managing revenue and check stubs after acquisition, rather than for landmen researching courthouse chains of title. Mineral buyers routinely use Artificial Landman or TitleDesk to verify chain-of-title NMA *before* closing an acquisition, then track ongoing monthly royalty checks in MineralSoft.',
+      'MineralSoft (acquired by Enverus) is built for **mineral and royalty owners** managing revenue and check stubs after acquisition, rather than for landmen researching courthouse chains of title. Mineral buyers routinely use Artificial Landman or Title-Desk to verify chain-of-title NMA *before* closing an acquisition, then track ongoing monthly royalty checks in MineralSoft.',
     desktopProgramNote: 'Cloud portfolio platform; no title-research desktop app.',
     pros: [
       'Purpose-built check-stub ingestion and RRC production cross-checks to catch operator royalty underpayments',
@@ -732,7 +732,7 @@ export const ECOSYSTEM_TOOLS = Object.freeze([
       },
       savesMoney: {
         verdict: 'Recovers underpaid royalties on producing Texas wells',
-        detail: 'Pairs downstream of Artificial Landman / TitleDesk pre-close title diligence.',
+        detail: 'Pairs downstream of Artificial Landman / Title-Desk pre-close title diligence.',
       },
       costVsGainSummary: 'Valuable post-acquisition royalty tracker for mineral funds; zero overlap with pre-acquisition title examination.',
     },

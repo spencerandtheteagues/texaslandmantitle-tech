@@ -7,9 +7,9 @@
     "artificial-landman"
   ],
   "protectedFiles": {
-    "src/data/tools-tier1.mjs": "35a40a74fb34f911cc45e8864996c77d55ce490341c29f3fc0916645a94ae733",
-    "src/data/tools-ecosystem.mjs": "985bf09d486a95fa4624258eca6c2cdd20bf956f5ac5b8ee91e3204464e4976c",
-    "src/data/unit-economics.mjs": "5b2eb1420b5c1f00113cace5c960b25b64376c994371864fd55bd1b5ca968365",
-    "src/data/comparisons.mjs": "a79cd0e534c3fb5bca79bf6d9cccf9af4fa7d320054739ea75d839d735a37b07"
+    "src/data/tools-tier1.mjs": "1ed2dddb1ba5b140dd5ab740bdb731414762c923463f90fe60211632b508c927",
+    "src/data/tools-ecosystem.mjs": "1dee0c3320c5be3f229a6dc00589c0e2f17776e244b0ff36081659748bdb7931",
+    "src/data/unit-economics.mjs": "11e9c81f4dc9861291c7d8823443f782a9997bcf71c153400e39a8ea04d910a1",
+    "src/data/comparisons.mjs": "15d2dfe4abe68be60392b630983ac100b928ffedb371fff1b80f7fe6cbb37c85"
   }
 }

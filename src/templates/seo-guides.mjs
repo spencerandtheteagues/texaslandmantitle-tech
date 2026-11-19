@@ -17,7 +17,7 @@ export const SEO_LANDING_PAGES = Object.freeze([
     faqs: [
       {
         q: 'What is the best AI landman software for Texas oil and gas title work?',
-        a: 'TitleDesk (title-desk.com and TitleDesk Desktop Agent at desktop.title-desk.com) and Artificial Landman (artificiallandman.io) tie for #1 at 96.4/100. Both verify Texas mineral chains with two independent AI examiners plus a cross-family page-image validator, publish transparent self-serve pricing ($249/run or $199/seat/mo on Desktop), and compute exact rational/BigInt mineral fractions.',
+        a: 'Title-Desk (title-desk.com and Title-Desk Agent at desktop.title-desk.com) and Artificial Landman (artificiallandman.io) tie for #1 at 96.4/100. Both verify Texas mineral chains with two independent AI examiners plus a cross-family page-image validator, publish transparent self-serve pricing ($249/run or $199/seat/mo on Desktop), and compute exact rational/BigInt mineral fractions.',
       },
       {
         q: 'How is AI landman software different from generic PDF chatbots like ChatGPT or Claude?',
@@ -57,7 +57,7 @@ export const SEO_LANDING_PAGES = Object.freeze([
                     <td class="mono"><strong>${esc(t.compositeScore)}</strong></td>
                     <td style="font-size:0.82rem;">${
                       t.isTiedLeader
-                        ? '3-model cross-family consensus on cited page PNGs + BigInt exact-fraction ledger'
+                        ? 'multi-model cross-family page-image verification + independent .xlsx readback + BigInt exact-fraction ledger'
                         : esc(t.category)
                     }</td>
                     <td style="font-size:0.82rem;">${esc(t.pricingSummary)}</td>
@@ -76,7 +76,7 @@ export const SEO_LANDING_PAGES = Object.freeze([
           <div class="container">
             <div class="article-prose">
               <h2>Five Non-Negotiable Checks Before Buying AI Landman Software</h2>
-              <p><strong>1. Multi-Model Page Verification vs. Single-Pass Hallucination:</strong> Never rely on a single unverified LLM pass over faded 1930s Texas deeds. Require independent model cross-checking against actual page images (used by both <a href="https://title-desk.com/" rel="noopener">TitleDesk</a> and <a href="https://artificiallandman.io/" rel="noopener">Artificial Landman</a>) plus human propose-to-accept review gates.</p>
+              <p><strong>1. Multi-Model Page Verification vs. Single-Pass Hallucination:</strong> Never rely on a single unverified LLM pass over faded 1930s Texas deeds. Require independent model cross-checking against actual page images (used by both <a href="https://title-desk.com/" rel="noopener">Title-Desk</a> and <a href="https://artificiallandman.io/" rel="noopener">Artificial Landman</a>) plus human propose-to-accept review gates.</p>
               <p><strong>2. Deterministic Rational / BigInt Fraction Math:</strong> Mineral chains routinely split estates into thirds, sevenths, sixteenths, and 1/128ths. Demand exact numerator/denominator arithmetic where <code>1/3 + 1/3 + 1/3 = 1/1</code> exactly rather than floating-point decimals.</p>
               <p><strong>3. Published Self-Serve Unit Economics:</strong> Compare fixed $249 per-run browser pricing and $199/month local desktop seats against quote-gated enterprise contracts before locking into annual overhead.</p>
               <p><strong>4. Statewide 254-County Texas Flexibility:</strong> Pre-indexed basin platforms shine in 20–30 Permian counties, whereas upload + BYO portal engines cover every county from Reeves and Midland to Karnes, Panola, and Shelby.</p>
@@ -99,7 +99,7 @@ export const SEO_LANDING_PAGES = Object.freeze([
     faqs: [
       {
         q: 'What is the best title runsheet software for independent landmen?',
-        a: 'For automated end-to-end runsheets with exact mineral ownership, TitleDesk ($249/run Web or $199/mo Desktop Agent) and Artificial Landman ($249/run) tie at #1. For manual-entry cloud runsheet worksheets with a PDF abstract splitter, TitleMine offers a $169/mo Landman Runsheet tier; for enterprise subscribers needing instant queries inside a 350M-record hosted corpus, Enverus Courthouse offers Runsheet Assistant.',
+        a: 'For automated end-to-end runsheets with exact mineral ownership, Title-Desk ($249/run Web or $199/mo Desktop Agent) and Artificial Landman ($249/run) tie at #1. For manual-entry cloud runsheet worksheets with a PDF abstract splitter, TitleMine offers a $169/mo Landman Runsheet tier; for enterprise subscribers needing instant queries inside a 350M-record hosted corpus, Enverus Courthouse offers Runsheet Assistant.',
       },
       {
         q: 'What columns must a defensible Texas oil and gas runsheet include?',
@@ -112,7 +112,7 @@ export const SEO_LANDING_PAGES = Object.freeze([
           <div class="grid-2">
             <div class="tool-dossier dossier-leader" style="margin-bottom:0;">
               <h3>Automated AI Runsheet + Ownership Engines (#1 Tied)</h3>
-              <p><strong>TitleDesk</strong> &amp; <strong>Artificial Landman</strong> read raw county clerk PDFs/TIFFs, classify 23+ instrument types, sort chronologically from sovereign GLO patent forward, link every row to exact page citations, flag broken chains and missing referenced deeds, and output a ready-to-deliver Excel Runsheet + Ownership workbook.</p>
+              <p><strong>Title-Desk</strong> &amp; <strong>Artificial Landman</strong> read raw county clerk PDFs/TIFFs, classify 23+ instrument types, sort chronologically from sovereign GLO patent forward, link every row to exact page citations, flag broken chains and missing referenced deeds, and output a ready-to-deliver Excel Runsheet + Ownership workbook.</p>
               <div class="btn-row">
                 <a class="btn btn-primary" href="/titledesk-desktop/">See Runsheet Benchmark →</a>
               </div>
@@ -157,7 +157,7 @@ export const SEO_LANDING_PAGES = Object.freeze([
                 <tr>
                   <th>Texas Mineral Arithmetic Edge Case</th>
                   <th>Failure Mode in Spreadsheets / Single-Pass LLMs</th>
-                  <th>Verified Handling in TitleDesk &amp; Artificial Landman</th>
+                  <th>Verified Handling in Title-Desk &amp; Artificial Landman</th>
                 </tr>
               </thead>
               <tbody>
@@ -193,14 +193,14 @@ export const SEO_LANDING_PAGES = Object.freeze([
     rubric: 'Field Operations · Deed OCR & Courthouse Portals',
     title: 'Landman Deed OCR, Multi-Page TIFF Reading & Texas Courthouse Record Tools (2026)',
     metaDescription:
-      'Compare landman deed OCR software, free local multi-page courthouse TIFF OCR in TitleDesk Desktop Agent, and 2026 pricing across TexasFile, CourthouseDirect, and CountyRecords.com.',
+      'Compare landman deed OCR software, free local multi-page courthouse TIFF OCR in Title-Desk Agent, and 2026 pricing across TexasFile, CourthouseDirect, and CountyRecords.com.',
     h1: 'Deed OCR Software, Multi-Page Courthouse TIFFs & Texas Record Portals Guide',
     lead:
       'How Texas field landmen eliminate per-page cloud OCR fees on multi-page county clerk TIFFs and cut raw courthouse record-copy bills by 60%–75% across TexasFile, CourthouseDirect, and CountyRecords.com.',
     faqs: [
       {
         q: 'Which landman software reads multi-page courthouse TIFFs and scanned PDFs with $0 per-page OCR fees?',
-        a: 'TitleDesk Desktop Agent ($199/seat/month) runs Tesseract OCR and native @napi-rs/canvas multi-page TIFF/PDF rendering locally on macOS, Linux, and Windows in the main process — reading thousands of scanned county vault pages offline with $0.00 in per-page cloud OCR charges.',
+        a: 'Title-Desk Agent ($199/seat/month) runs Tesseract OCR and native @napi-rs/canvas multi-page TIFF/PDF rendering locally on macOS, Linux, and Windows in the main process — reading thousands of scanned county vault pages offline with $0.00 in per-page cloud OCR charges.',
       },
       {
         q: 'When should a Texas landman use TexasFile vs. CourthouseDirect vs. CountyRecords.com?',
@@ -228,7 +228,7 @@ export const SEO_LANDING_PAGES = Object.freeze([
               </thead>
               <tbody>
                 <tr class="row-leader">
-                  <td><strong>TitleDesk Desktop Agent (Local OCR)</strong></td>
+                  <td><strong>Title-Desk Agent (Local OCR)</strong></td>
                   <td class="mono">$199 / seat / mo</td>
                   <td>Local instant preview</td>
                   <td class="mono"><strong>$0.00 / page local PDF &amp; multi-page TIFF OCR</strong></td>
