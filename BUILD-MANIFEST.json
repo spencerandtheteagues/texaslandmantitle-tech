@@ -1,0 +1,179 @@
+{
+  "builtAt": "2026-11-19T03:00:51.015Z",
+  "pageCount": 17,
+  "totalArtifacts": 31,
+  "files": [
+    {
+      "route": "/",
+      "relPath": "index.html",
+      "bytes": 85002,
+      "sha256": "2bae96b75e12c9c463db318430715d3eee3ede82f5efbe88c1201c067d119237"
+    },
+    {
+      "route": "/rankings/",
+      "relPath": "rankings/index.html",
+      "bytes": 204293,
+      "sha256": "998c0e2267d769642040097598947135ff9f095b75fc3cb3038c08f51018a799"
+    },
+    {
+      "route": "/titledesk-desktop/",
+      "relPath": "titledesk-desktop/index.html",
+      "bytes": 27102,
+      "sha256": "8d1964362a20c518ba182f3a9c6fee74c74842e593699384700916f9c2639c31"
+    },
+    {
+      "route": "/unit-economics/",
+      "relPath": "unit-economics/index.html",
+      "bytes": 27895,
+      "sha256": "08804a96a355bd54809a9242cd5de45fca60060b2f3d42b093694cef7b6ca4a3"
+    },
+    {
+      "route": "/compare/",
+      "relPath": "compare/index.html",
+      "bytes": 161777,
+      "sha256": "d703fc9f7fa603ae3fbd40cb4fd911cb9dc3093cc3ae612c15e384199fcf4598"
+    },
+    {
+      "route": "/news/",
+      "relPath": "news/index.html",
+      "bytes": 21023,
+      "sha256": "b29b9cf4acbba7f2b93e633de5c3dab2cab1da71f3ac0f5ae3e8002ff4f0e803"
+    },
+    {
+      "route": "/events/",
+      "relPath": "events/index.html",
+      "bytes": 27504,
+      "sha256": "f6a8ffb99b09f98a345ed6787c4acbe3672ec60ad8a44ae8ebb6d398dcb298d4"
+    },
+    {
+      "route": "/methodology/",
+      "relPath": "methodology/index.html",
+      "bytes": 19799,
+      "sha256": "d7d9662d9d994f71fe763add879bc5306362ef21f5e1e444cd6e2d8414165114"
+    },
+    {
+      "route": "/ai-landman-software/",
+      "relPath": "ai-landman-software/index.html",
+      "bytes": 23021,
+      "sha256": "3cd21147015f82d20e28bcaca6b4e1ba3f2389d3e10bfdad59cea80ad6899f04"
+    },
+    {
+      "route": "/title-runsheet-software/",
+      "relPath": "title-runsheet-software/index.html",
+      "bytes": 15936,
+      "sha256": "4ffee8f5e37a7e91385dad75089aca1446039c9af71b595fe2fb0cdf1b9f4c2c"
+    },
+    {
+      "route": "/mineral-ownership-calculator-software/",
+      "relPath": "mineral-ownership-calculator-software/index.html",
+      "bytes": 16987,
+      "sha256": "0939e62527c6d591930538ce0ce01994193c03981d2e8737004aba47ea5be50f"
+    },
+    {
+      "route": "/deed-ocr-courthouse-records/",
+      "relPath": "deed-ocr-courthouse-records/index.html",
+      "bytes": 17339,
+      "sha256": "90c934048aef7a0de8fa2377fe3a927407e951c2b866d58eb2bd344fb4edcc63"
+    },
+    {
+      "route": "/news/clifton-v-johnson-fasken-puig-2026-texas-mineral-deeds-ai/",
+      "relPath": "news/clifton-v-johnson-fasken-puig-2026-texas-mineral-deeds-ai/index.html",
+      "bytes": 19672,
+      "sha256": "7b364ee9ae1bfc607a12c72bd318dd95a6d631df52236aa9db8745d73edf9853"
+    },
+    {
+      "route": "/news/texas-rrc-100-million-records-lonestar-sb1150-inactive-wells/",
+      "relPath": "news/texas-rrc-100-million-records-lonestar-sb1150-inactive-wells/index.html",
+      "bytes": 18839,
+      "sha256": "a5fc98a6e34c61970575e6696aabd5ac11a2a59413e2f9de3c8430cb781ddd94"
+    },
+    {
+      "route": "/news/2026-texas-courthouse-record-cost-fact-sheet-sb16-rural-gaps/",
+      "relPath": "news/2026-texas-courthouse-record-cost-fact-sheet-sb16-rural-gaps/index.html",
+      "bytes": 18510,
+      "sha256": "6873feb782e139312645e1a77130406bf5be1338b7d18c77a6b3054d1a55ac63"
+    },
+    {
+      "route": "/news/fall-2026-ai-landman-software-wave-multi-model-verification/",
+      "relPath": "news/fall-2026-ai-landman-software-wave-multi-model-verification/index.html",
+      "bytes": 17839,
+      "sha256": "cd5548022f42ee6ed00548febef5aab5a389e9e0f333267322945ddc076fc993"
+    },
+    {
+      "route": "/news/browser-runs-vs-local-desktop-workstation-landman-guide/",
+      "relPath": "news/browser-runs-vs-local-desktop-workstation-landman-guide/index.html",
+      "bytes": 16914,
+      "sha256": "6ff3bea4776b3702b90f8e758fe1f718e52660f04f0bb1d47febc3646426f4c1"
+    },
+    {
+      "relPath": "assets/styles.css",
+      "bytes": 17212,
+      "sha256": "bb9b8428ce82fd2e89bcb295d15eb455ac68042aac85de28b377bfb315914d32"
+    },
+    {
+      "relPath": "assets/app.js",
+      "bytes": 9881,
+      "sha256": "b0a46b5c7831a3b3b1149404df7049a5a6501576a27554d79885af790a21a23d"
+    },
+    {
+      "relPath": "assets/og-card.png",
+      "bytes": 58722,
+      "sha256": "8bf84ad7693cfc5ccfe854b05735ff4dfda6d0875321b13f68ae04fdb8534224"
+    },
+    {
+      "relPath": "CNAME",
+      "bytes": 23,
+      "sha256": "772132cb1b73eae33290b521d2162a9c8ddb6ea17f038b72928b62a60f58ebce"
+    },
+    {
+      "relPath": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "relPath": "9b4e7c2d8f1a4630b5c81e9a72d4f603.txt",
+      "bytes": 32,
+      "sha256": "7f1b7f09374313295818204cedebe70cb21f890c054d84760ce705b2cd2aa645"
+    },
+    {
+      "relPath": "favicon.svg",
+      "bytes": 338,
+      "sha256": "e4222df762ddd9a77611711f9e56d6fb6ef667e29956f00f47f8b718eca466c6"
+    },
+    {
+      "relPath": "robots.txt",
+      "bytes": 588,
+      "sha256": "461134de1edb37eda9ab5e8aeedb5d1fae90a3cfbdf79f83fd68c1ca638ebec2"
+    },
+    {
+      "relPath": "sitemap.xml",
+      "bytes": 3417,
+      "sha256": "7a8db8dc85dcbc1afec43a9abe2b93d065230f1bd7881c9250097887c8d21af8"
+    },
+    {
+      "relPath": "feed.xml",
+      "bytes": 4129,
+      "sha256": "c33760b59667cbe348bfbd7d5b641efecdc3cef0e6a8ca35d39cad34575b7342"
+    },
+    {
+      "relPath": "llms.txt",
+      "bytes": 4126,
+      "sha256": "9a2370ee36719344e853254f56fb6d7893ea0d409639cb6ea6e98817b695aa6f"
+    },
+    {
+      "relPath": "llms-full.txt",
+      "bytes": 115423,
+      "sha256": "17a3d66006c8f1b0ba621ec9ae760f248f2dda96f8cd5615bbe4305486cd62cb"
+    },
+    {
+      "relPath": "api/tools.json",
+      "bytes": 136628,
+      "sha256": "1a8b99ff2b52ac643c658c7ea055323432c95652bc1c533bf3c84bd85859876f"
+    },
+    {
+      "relPath": "api/unit-economics.json",
+      "bytes": 7430,
+      "sha256": "b7c28bc80ca01e5817392d5fa1395cfedfe9c47ccd8fff4f138ccacd964a66a5"
+    }
+  ]
+}
